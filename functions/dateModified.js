@@ -5,6 +5,7 @@ function dateModified() {
       var year = 2019;
       var date1 = " ";
       
+      
       date1 = document.lastModified;
       document.getElementById("dateModified").innerHTML = date1;
 }
