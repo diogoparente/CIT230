@@ -15,6 +15,12 @@ h2 {
   margin-top: 1px;
 }
 
+footer {
+  background: #028090;
+  color: white;
+  padding: 0px 10px; 
+  align-content: center;
+}
 #content {
   width: 90%;
   margin: 0 auto;
@@ -22,10 +28,8 @@ h2 {
 
 #logo {
   position: absolute;
-  top: 0px;
-  background: white;
-  margin-left: 25px;
-  border: solid black 1px;
+  top: 10px;
+  right: 10px;
 }
 
 #nome {
