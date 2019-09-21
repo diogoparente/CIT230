@@ -2,12 +2,16 @@
 
 body {
   background: #f0f3bd;
-  font-family: Roboto, Arial, sans-serif;
+  font-family: Arial, "Comic Sans MS", sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1 {
+  color: white;
+  margin-top: 1px;
+}
+
+h2 {
   color: black;
-  font-family: Lato, "Comic Sans MS", sans-serif;
   margin-top: 1px;
 }
 
@@ -25,5 +29,5 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #nome {
-  
+
 }
