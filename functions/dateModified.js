@@ -1,7 +1,7 @@
 function dateModified() {
     var dayName = "Sunday";
       var month = "January";
-      var dayNumber = 4;
+      var dayNumber = 1;
       var year = 2019;
       var date1 = " ";
       
