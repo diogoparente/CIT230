@@ -4,19 +4,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Assignment portal for Diogo Parente in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+  <meta name="description"
+    content="Assignment portal for Diogo Parente in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
   <title>CIT 230 - Assignment Portal</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <script src="functions/dateModified.js"></script>
 </head>
 
-<body>
+<body onload="dateModified()">
   <div id="content">
 
-    <header><!-- HEADER SECTION -->
-      <div id="logo"><!-- Foto -->
+    <header>
+      <!-- HEADER SECTION -->
+      <div id="logo">
+        <!-- Foto -->
         <img src="images/foto.jpg" alt="Picture of mine">
       </div>
-      <div><!-- Nome, Título -->
+      <div>
+        <!-- Nome, Título -->
         <h1>Diogo A. Parente</h1>
       </div>
     </header>
@@ -33,8 +38,9 @@
 
     <footer>
       <!-- FOOTER SECTION -->
-      <p id="line1">&copy; 2019 | Diogo A. Parente | Brazil | <a href="https://www.byui.edu/online">BYU-I Online Learning</a></p>
-      <p id="line2">Last Updated: 09/20/2019</p>
+      <p id="line1">&copy; 2019 | Diogo A. Parente | Brazil | <a href="https://www.byui.edu/online">BYU-I Online
+          Learning</a></p>
+      <p id="line2">Last Updated: <span id="dateModified"></span></p>
     </footer>
   </div>
 </body>
