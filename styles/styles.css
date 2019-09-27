@@ -22,6 +22,14 @@ h2 {
   border-bottom: 1px solid #bbb;
 }
 
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+h4 {
+  font-family: 'Lobster', cursive;
+}
+
 footer {
   background: #028090;
   color: white;
