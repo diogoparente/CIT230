@@ -1,0 +1,9 @@
+@media (max-width: 40em) {
+    h1 {
+      font-size: 1.0em;
+    }
+  
+    h2 {
+      font-size: 0.8em;
+    }
+  }

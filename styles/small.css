@@ -1,4 +1,8 @@
 @media (max-width: 32.5em) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
   h1 {
     font-size: 1.5em;
   }
