@@ -1,0 +1,62 @@
+main {  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+  padding: 0.5em;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.principle-box {
+  border: 1px solid black; 
+  border-radius: 5px;
+  margin: 10px;
+  background: #e1e8f7;
+  max-width: 30em;
+}
+
+.principle {
+  padding: 10px;
+}
+
+.title {
+  color: whitesmoke;
+  background: black;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+}
+
+.paragraph {
+  color: black;
+}
+
+.return {
+  background: #028090;
+  padding: 0.5em;
+  border-radius: 0 10px 0 10px;
+  position: absolute;
+  top: 62px;
+}
+
+.return a {
+  font-size: 1.0em;
+  color: white;  
+}
+
+.return:hover {
+  background: gray;
+}
+
+.return a:hover {
+  color: yellow;
+}
