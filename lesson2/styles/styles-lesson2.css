@@ -39,3 +39,24 @@ h2 {
 .paragraph {
   color: black;
 }
+
+.return {
+  background: #028090;
+  padding: 0.5em;
+  border-radius: 0 10px 0 10px;
+  position: absolute;
+  top: 62px;
+}
+
+.return a {
+  font-size: 1.0em;
+  color: white;  
+}
+
+.return:hover {
+  background: gray;
+}
+
+.return a:hover {
+  color: yellow;
+}

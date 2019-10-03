@@ -1,13 +1,24 @@
-@media (max-width: 32.5em) {
+@media (max-width: 35em) {
   main {
     grid-template-columns: 1fr;
   }
 
   h1 {
     font-size: 1.5em;
+    padding-left: 0;
   }
 
   h2 {
     font-size: 1.1em;
+  }
+  
+  .return {
+    padding: 0.3em;
+    position: absolute;
+    top: 33px;
+  }
+  
+  .return a {
+    font-size: 0.8em;
   }
 }
