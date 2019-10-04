@@ -12,13 +12,13 @@
     font-size: 1.1em;
   }
   
-  .return {
+  .return, .next {
     padding: 0.3em;
     position: absolute;
     top: 33px;
   }
   
-  .return a {
+  .return a, .next a {
     font-size: 0.8em;
   }
 }

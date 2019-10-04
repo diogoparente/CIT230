@@ -33,14 +33,16 @@ h2 {
 }
 
 .image {
-  width: 100%;
+  width: 50%;
+  display: block;
+  margin: auto;
 }
 
 .paragraph {
   color: black;
 }
 
-.return {
+.return, .next {
   background: #028090;
   padding: 0.5em;
   border-radius: 0 10px 0 10px;
@@ -48,15 +50,21 @@ h2 {
   top: 62px;
 }
 
-.return a {
+.next {
+  border-radius: 10px 0 10px 0;
+  position: absolute;
+  right: 5%;
+}
+
+.return a, .next a {
   font-size: 1.0em;
   color: white;  
 }
 
-.return:hover {
+.return:hover, .next:hover {
   background: gray;
 }
 
-.return a:hover {
+.return a:hover, .next a:hover {
   color: yellow;
 }
