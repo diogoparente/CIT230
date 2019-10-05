@@ -1,20 +1,17 @@
 @media only screen and (max-width: 60em) {
-  main {
-    grid-template-columns: 1fr 1fr;
-  }
-
   h1 {
-    font-size: 1.9em;
+    font-size: 2.0em;
+    padding-left: 0;
   }
 
   h2 {
     font-size: 1.3em;
   }
-
+  
   .return, .next {
     padding: 0.4em;
     position: absolute;
-    top: 43px;
+    top: 47px;
   }
   
   .return a, .next a {
