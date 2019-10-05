@@ -23,13 +23,17 @@ h2 {
   margin-top: 1px;
   border-bottom: 1px solid #bbb;
 }
-
+/*
 h3 {
   font-family: 'Lato', sans-serif;
 }
 
 h4 {
   font-family: 'Lobster', cursive;
+}
+*/
+li {
+  font-size: 1em;
 }
 
 footer {

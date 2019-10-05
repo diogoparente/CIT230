@@ -1,12 +1,59 @@
 h1 {
   padding: 0.5em;
   font-size: 2.5em;
+  border-radius: 10px 10px 0 0;
 }
 
 h2 {
   font-size: 1.5em;
   border-top: 1px solid #bbb;
   border-bottom: 0;
+}
+
+nav, .return {
+  background: #028090;
+  line-height: 2em;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: -28px;
+  border-radius: 0 0 10px 10px;
+}
+
+nav a, .return a {
+  color: white;
+  font-size: 1.0em;
+  line-height: 1.5;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav li {
+  display: inline-block;
+  color: white;
+}
+
+nav a:hover, .return a:hover {
+  background: gray;
+  color: yellow;
+  border-radius: 5px;
+}
+
+.return {
+  padding: 0.1em;
+  border-radius: 5px;
+  position: absolute;
+  left: 6%;
+  top: 96px;  
+  margin: 0;
+  line-height: 1.6em;
+}
+
+.return:hover {
+  background: gray;
+}
+
+#active-page {
+  color: yellow;
 }
 
 .principle-box {
@@ -27,31 +74,4 @@ h2 {
 
 .paragraph {
   color: black;
-}
-
-.return, .next {
-  background: #028090;
-  padding: 0.5em;
-  border-radius: 0 10px 0 10px;
-  position: absolute;
-  top: 62px;
-}
-
-.next {
-  border-radius: 10px 0 10px 0;
-  position: absolute;
-  right: 5%;
-}
-
-.return a, .next a {
-  font-size: 1.0em;
-  color: white;  
-}
-
-.return:hover, .next:hover {
-  background: gray;
-}
-
-.return a:hover, .next a:hover {
-  color: yellow;
 }

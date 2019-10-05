@@ -12,6 +12,14 @@
     font-size: 1.3em;
   }
 
+  #line1 {
+    font-size: 0.9em;
+  }
+  
+  #line2 {
+    font-size: 0.7em;
+  }
+  
   .return {
     padding: 0.4em;
     position: absolute;
