@@ -8,14 +8,19 @@
     font-size: 1.1em;
   }
 
+  header p {
+    font-size: 0.8em;
+    margin-top: -30px;
+  }
+
   nav {
     line-height: 2em;
-    text-align: right;
+    text-align: center;
     padding-right: 10px;
-    margin-top: -16px;
+    margin-top: 0px;
   }
   
-  nav a, nav button {
+  nav button {
     font-size: 0.8em;
   }
 
@@ -41,8 +46,14 @@ nav ul.hide {
 
   nav ul li:hover {
     background: gray;
+    padding: 2px;
   }
-
+  
+  .logo img {
+    height: 80px;
+    padding: 0px;
+    padding-top: 4px;
+  }
   
   #line1 {
     font-size: 0.8em;

@@ -18,95 +18,62 @@
 
 <body onload="dates()">
 
-    <header>
-      <!-- HEADER SECTION -->
-      <div>
-        <!-- Nome, Título -->
-        <img class="logo" src="../lesson3/images/logo_weather.png" alt="Website logo">
-        <h1>The Weather for You</h1>
-        <p>The forecast you need for your weather.</p>
-      </div>
-    </header>
+  <header>
+    <!-- HEADER SECTION -->
+    <!-- Nome, Título -->
+    <div class="logo">
+      <img src="../lesson3/images/logo_weather1.png" alt="Website logo">
+    </div>
+    <div>
+      <h1>The Weather for You</h1>
+      <p>The forecast you need for your weather.</p>
+    </div>
+  </header>
 
-    <nav>
-      <!-- Navigation links, direction to other pages -->
-      <button onclick="toggleMenu()">&#9776 Menu</button>
-      <ul id="pageOptions" class="hide">
-        <li><a href="#">Home</a></li>
-        <li><a id="active-page">Preston</a></li>
-        <li><a href="#">Soda Springs</a></li>
-        <li><a href="#">Fish Haven</a></li>
-        <li><a href="#">Storm Center</a></li>
-        <li><a href="#">Gallery</a></li>
-      </ul>
-    </nav>
+  <nav>
+    <!-- Navigation links, direction to other pages -->
+    <button onclick="toggleMenu()">&#9776 Menu</button>
+    <ul id="pageOptions" class="hide">
+      <li><a href="../index.html">Home</a></li>
+      <li><a id="active-page">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
+  </nav>
 
-    <div id="content">
+  <div id="content">
     <main>
-      <!-- MAIN SECTION -->
+      <h2>Preston Idaho</h2>
       <section>
-        <div class="principle-box">
-          <div>
-            <h2 class="title">Site Name</h2>
-          </div>
-          <div class="principle">
-            <p class="paragraph">This website will be called <b>The Weather for You</b>. The website will be
-              a source of information about the weather condition in the areas listed.</p>
-          </div>
-        </div>
+        <p>Hero w/ weather summary</p>
       </section>
 
       <section>
-        <div class="principle-box">
-          <div>
-            <h2 class="title">Site Purpose</h2>
-          </div>
-          <div class="principle">
-            <p class="paragraph">The main purpose of the TheWeather4You.com website is to notify its users
-              about the weather condition in the locations of <b>Preston</b>, <b>Soda Springs</b>, and
-              <b>Fish Haven</b>.</p>
-            <p class="paragraph">The weather forecast will be given for the current and next few days.</p>
-            <p class="paragraph">The information displayed will be the temperature, sun and clouds
-              condition, wind speed and direction, rain or snow precipitation, and any important alert.
-            </p>
-          </div>
-        </div>
+        <p>5 Day Forecast</p>
       </section>
 
       <section>
-        <div class="principle-box">
-          <div>
-            <h2 class="title">Domain Name</h2>
-          </div>
-          <div class="principle">
-            <p class="paragraph">The domain for the <b>"The Weather for You"</b> website will be
-              <b>www.theweather4you.com</b>.</p>
-            <p class="paragraph">The price to keep this domain active is <b>$ 12,00 per year</b>.</p>
-          </div>
-        </div>
+        <p>Article</p>
       </section>
 
       <section>
-        <div class="principle-box">
-          <div>
-            <h2 class="title">Logo</h2>
-          </div>
-          <div class="principle">
-            <img class="image" src="images/logo_weather.png" alt="Website logo">
-          </div>
-        </div>
+        <p>Contact Information</p>
       </section>
 
     </main>
 
-    <footer>
-      <!-- FOOTER SECTION -->
-      <p id="line1">&copy; <span id="currentYear"></span> | Diogo A. Parente | Brazil | <a
-          href="https://www.byui.edu/online" target="_blank">BYU-I Online
-          Learning</a></p>
-      <p id="line2">Last updated: <span id="dateModified"></span></p>
-    </footer>
-  </div>
+  <footer>
+    <!-- FOOTER SECTION -->
+    <p id="line1">&copy; <span id="currentYear"></span> | Diogo A. Parente | Brazil | <a
+        href="https://www.byui.edu/online" target="_blank">BYU-I Online
+        Learning</a></p>
+    <p id="line3">Last updated: <span id="dateModified"></span></p>
+    <p id="line2"><span id="currentDate"></span></p>
+  </footer>
+</div>
+
 </body>
 
 </html>

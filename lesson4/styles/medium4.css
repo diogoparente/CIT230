@@ -1,48 +1,44 @@
 @media only screen and (max-width: 60em) {
   h1 {
     font-size: 2.0em;
-    padding-left: 0;
+    padding: 1.0em 5px;
   }
 
   h2 {
-    font-size: 1.3em;
+    font-size: 1.5em;
+  }
+
+  header p {
+    font-size: 0.9em;
+    margin-top: -40px;
   }
 
   nav {
     line-height: 2em;
-    text-align: right;
-    padding-right: 10px;
-    margin-top: -21px;
+    text-align: center;
+    margin-top: -16px;
   }
 
-  nav a, nav button {
+  nav a {
     font-size: 0.9em;
+    padding: 10px;
+    line-height: 1px;
+  }
+
+  nav a:hover {
+    padding: 8px 10px;
   }
 
   nav button {
-    display: inline-block;
-    background: transparent;
-    border: none;
-    color: white;
-  }
-
-  nav ul.hide {
     display: none;
   }
 
-  nav ul li {
-    display: block;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+  .logo img {
+    height: 100px;
+    padding: 0px;
+    padding-top: 4px;
   }
-
-  nav ul li a {
-    display: block;
-  }
-
-  nav ul li:hover {
-    background: gray;
-  }
-
+  
   #line1 {
     font-size: 0.9em;
   }
@@ -50,4 +46,5 @@
   #line2 {
     font-size: 0.7em;
   }
+
 }
