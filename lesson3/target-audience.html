@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="styles/small3.css">
   <link href="https://fonts.googleapis.com/css?family=Lato%7cLobster&display=swap" rel="stylesheet">
   <script src="../functions/dateVerify.js"></script>
+  <script src="../functions/Menu.js"></script>
 </head>
 
 <body onload="dates()">
@@ -27,10 +28,11 @@
       <span class="return"><a href="../index.html">Return</a></span>
       
       <nav><!-- Navigation links, direction to other pages -->
-        <ul>
-          <li><a href="index.html">Home</a> |</li>
-          <li><a id="active-page">Audience</a> |</li>
-          <li><a href="color-scheme.html">Colors</a> |</li>
+        <button onclick="toggleMenu()">&#9776 Menu</button>
+        <ul id="pageOptions" class="hide">
+          <li><a href="index.html">Home</a></li>
+          <li><a id="active-page">Audience</a></li>
+          <li><a href="color-scheme.html">Colors</a></li>
           <li><a href="typography.html">Typography</a></li>
         </ul>
       </nav>

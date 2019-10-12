@@ -11,8 +11,32 @@
     margin-top: -16px;
   }
   
-  nav a, .return a {
+  nav a, .return a, nav button {
     font-size: 0.8em;
+  }
+
+  nav button {
+    display: inline-block;
+    background: transparent;
+    border: none;
+    color: white;
+  }
+
+nav ul.hide {
+  display: none;
+}
+
+  nav ul li {
+    display: block;
+    border-top: 1px solid rgba(255,255,255,0.5);
+  }
+
+  nav ul li a {
+    display: block;
+  }
+
+  nav ul li:hover {
+    background: gray;
   }
 
   h2 {

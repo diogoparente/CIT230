@@ -24,18 +24,21 @@ nav a, .return a {
   font-size: 1.0em;
   line-height: 1.5;
   text-decoration: none;
-  padding: 5px;
+  padding: 5px 10px;
 }
 
 nav li {
   display: inline-block;
-  color: white;
 }
 
 nav a:hover, .return a:hover {
   background: gray;
   color: yellow;
   border-radius: 5px;
+}
+
+nav button {
+  display: none;
 }
 
 .return {
