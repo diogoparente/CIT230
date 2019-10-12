@@ -3,19 +3,19 @@
     font-size: 1.5em;
     padding-left: 0;
   }
-  
+    
   h2 {
     font-size: 1.1em;
   }
-  
-  nav, .return {
+
+  nav {
     line-height: 2em;
     text-align: right;
     padding-right: 10px;
     margin-top: -16px;
   }
   
-  nav a, .return a, nav button {
+  nav a, nav button {
     font-size: 0.8em;
   }
 
@@ -43,18 +43,12 @@ nav ul.hide {
     background: gray;
   }
 
+  
   #line1 {
     font-size: 0.8em;
   }
   
   #line2 {
     font-size: 0.6em;
-  }
-  
-  .return {
-    line-height: 1.5em;
-    position: absolute;
-    left: 6%;
-    top: 79px;  
   }
 }
