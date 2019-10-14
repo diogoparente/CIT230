@@ -22,7 +22,7 @@
   }
   
   nav button {
-    font-size: 0.8em;
+    font-size: 1.2em;
   }
 
   nav button {
@@ -43,6 +43,8 @@ nav ul.hide {
 
   nav ul li a {
     display: block;
+    line-height: 1em;
+    font-size: 1.2em;
   }
 
   nav ul li:hover {
