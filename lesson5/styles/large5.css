@@ -1,0 +1,157 @@
+h1 {
+  padding: 1.0em 5px;
+  font-size: 2.5em;
+  border-radius: 0;
+  margin: 0px;
+}
+
+h2 {
+  font-family: 'Lobster', cursive, Arial;
+  font-size: 2.0em;
+  border: 0;
+  text-align: center;
+  padding: 0.5em;
+}
+
+header {
+  background: #028090;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+header p {
+  font-size: 1em;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+  margin-top: -50px;
+}
+
+nav {
+  background: #1446a0;
+  line-height: 3em;
+  text-align: center;
+  margin: -16px;
+}
+
+nav a {
+  color: white;
+  font-size: 1.0em;
+  line-height: 1.5px;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a:hover {
+  background: gray;
+  color: yellow;
+  padding: 15.5px 15px;
+}
+
+nav button {
+  display: none;
+}
+
+footer {
+  border-radius: 0px;
+}
+
+#active-page {
+  color: yellow;
+}
+
+#line3 {
+  font-size: 0.8em;
+  color: yellow;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.logo img {
+  height: 116px;
+  padding: 0px;
+  padding-top: 4px;
+}
+
+#pancake p {
+  text-align: center;
+  font-size: 1.2em;
+  background-color: yellow;
+  padding: 10px;
+  margin: 0px;
+}
+
+.hideAlert {
+  display: none;
+}
+
+.hero, .forecast {}
+
+.article, .contact{
+  background: #e1e8f7;
+  border-top: 1px dashed;
+  border-bottom: 1px dashed;
+  margin: 10px 0;
+}
+
+.jlle {
+  width: 100%;
+}
+
+.summary {
+background: #028090;
+width: 200px;
+padding: 1px 10px 10px;
+opacity: 0.9;
+position: absolute;
+margin: 10px;
+}
+
+.summary p {
+color: white;
+border-bottom: 1px solid #bbb;
+margin-bottom: 5px;
+font-weight: bold;
+font-size: 1.2em;
+}
+
+.summary .left {
+color: white;
+text-align: end;
+padding-left: 10px;
+}
+
+.summary .right {
+  color: yellow;
+  padding-left: 5px;
+}
+
+.weatherTable {
+  background: #e1e8f7;
+}
+
+.tableDay {
+  background: #1446a0;
+color: white;
+width: 10%;
+padding: 1%;
+}
+
+.weatherIcon {
+max-width: 50px;
+}
+
+.maxTemp {
+justify-content: center;
+}
+
+.minTemp {
+
+}

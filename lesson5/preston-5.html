@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Preston Town Page for CIT 230: Weather Website Planning">
+  <title>CIT 230 | Week 5 | Preston Town</title>
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="styles/large5.css">
+  <link rel="stylesheet" href="styles/medium5.css">
+  <link rel="stylesheet" href="styles/small5.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato%7cLobster&display=swap" rel="stylesheet">
+  <script src="../functions/dateVerify.js"></script>
+  <script src="../functions/Menu.js"></script>
+</head>
+
+<body onload="dates()">
+
+  <div id="pancake" class="hideAlert">
+    <p><b>Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion.</b></p>
+  </div>
+  <header>
+    <!-- HEADER SECTION -->
+    <!-- Nome, Título -->
+    <div class="logo">
+      <img src="../lesson3/images/logo_weather1.png" alt="Website logo">
+    </div>
+    <div>
+      <h1>The Weather for You</h1>
+      <p>The forecast you need for your weather.</p>
+    </div>
+  </header>
+
+  <nav>
+    <!-- Navigation links, direction to other pages -->
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="pageOptions" class="hide">
+      <li><a href="../index.html">Home</a></li>
+      <li><a id="active-page">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <div id="content">
+    <main>
+      <h2>Preston Idaho</h2>
+
+      <div class="hero">
+        <div class="summary">
+          <p>Weather Summary</p>
+          <table>
+            <tr>
+              <td class="left">Currently:</td>
+              <td class="right">Sunny</td>
+            </tr>
+            <tr>
+              <td class="left">High:</td>
+              <td class="right">82ºF</td>
+            </tr>
+            <tr>
+              <td class="left">Wind Chill:</td>
+              <td class="right">83ºF</td>
+            </tr>
+            <tr>
+              <td class="left">Humidity:</td>
+              <td class="right">31%</td>
+            </tr>
+            <tr>
+              <td class="left">Wind Speed:</td>
+              <td class="right">5 mph</td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <img class="jlle" src="images/Joinville.JPG" alt="Picture of Joinville/Brazil, because I don't know Preston.">
+        </div>
+      </div>
+
+      <div class="forecast">
+        <p>5 Day Forecast</p>
+        <table class="weatherTable">
+            <tr>
+<th class="tableDay">Fri</th>
+<th class="tableDay">Sat</th>
+<th class="tableDay">Sun</th>
+<th class="tableDay">Mon</th>
+<th class="tableDay">Tue</th>
+            </tr>
+            <tr>
+              <td class="weatherIcon"><img class="weatherIcon" src="images/clear.png" alt="Clear and sunny"></td>
+              <td><img class="weatherIcon" src="images/clear.png" alt="Clear and sunny"></td>
+              <td><img class="weatherIcon" src="images/clear.png" alt="Clear and sunny"></td>
+              <td><img class="weatherIcon" src="images/clear.png" alt="Clear and sunny"></td>
+              <td><img class="weatherIcon" src="images/clear.png" alt="Clear and sunny"></td>
+            </tr>
+            <tr>
+              <td class="maxTemp">82ºF</td>
+              <td class="maxTemp">82ºF</td>
+              <td class="maxTemp">82ºF</td>
+              <td class="maxTemp">82ºF</td>
+              <td class="maxTemp">82ºF</td>
+            </tr>
+            <tr>
+              <td class="minTemp">82ºF</td>
+              <td class="minTemp">82ºF</td>
+              <td class="minTemp">82ºF</td>
+              <td class="minTemp">82ºF</td>
+              <td class="minTemp">82ºF</td>
+            </tr>
+
+          </table>
+      </div>
+
+      <div class="article">
+        <p>Article</p>
+      </div>
+
+      <div class="contact">
+        <p>Contact Information</p>
+      </div>
+
+    </main>
+
+    <footer>
+      <!-- FOOTER SECTION -->
+      <p id="line1">&copy; <span id="currentYear"></span> | Diogo A. Parente | Brazil | <a
+          href="https://www.byui.edu/online" target="_blank">BYU-I Online
+          Learning</a></p>
+      <p id="line3">Last updated: <span id="dateModified"></span></p>
+      <p id="line2"><span id="currentDate"></span></p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
