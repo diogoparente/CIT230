@@ -85,7 +85,29 @@
   }
 
   .forecast,
-  .contact {
+  .contact .map {
     display: none;
+  }
+
+  .contact {
+    padding: 0;
+  }
+  
+.contact div p {
+  margin: 2px;
+}
+
+  .article img {
+    width: 99%;
+    margin: 0 0 10px;
+    display: static;
+    border: solid gray 1px;
+    box-shadow: none;
+  }
+  
+  .icon {
+    max-width: 30px;
+    max-height: 30px;
+    border: none;
   }
 }

@@ -1,3 +1,6 @@
+main {
+  padding-bottom: 0;
+}
 h1 {
   padding: 1.0em 5px;
   font-size: 2.5em;
@@ -11,6 +14,10 @@ h2 {
   border: 0;
   text-align: center;
   padding: 0.5em;
+}
+
+h3 {
+  font-size: 1.5em;
 }
 
 header {
@@ -92,13 +99,10 @@ footer {
   display: none;
 }
 
-.hero, .forecast {}
+.hero {}
 
-.article, .contact{
-  background: #e1e8f7;
-  border-top: 1px dashed;
-  border-bottom: 1px dashed;
-  margin: 10px 0;
+.forecast {
+  text-align: center;
 }
 
 .jlle {
@@ -106,26 +110,26 @@ footer {
 }
 
 .summary {
-background: #028090;
-width: 200px;
-padding: 1px 10px 10px;
-opacity: 0.9;
-position: absolute;
-margin: 10px;
+  background: #028090;
+  width: 200px;
+  padding: 1px 10px 10px;
+  opacity: 0.9;
+  position: absolute;
+  margin: 10px;
 }
 
 .summary p {
-color: white;
-border-bottom: 1px solid #bbb;
-margin-bottom: 5px;
-font-weight: bold;
-font-size: 1.2em;
+  color: white;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 .summary .left {
-color: white;
-text-align: end;
-padding-left: 10px;
+  color: white;
+  text-align: end;
+  padding-left: 10px;
 }
 
 .summary .right {
@@ -135,23 +139,73 @@ padding-left: 10px;
 
 .weatherTable {
   background: #e1e8f7;
+  max-width: 60%;
+  padding: 1%;
+  justify-items: center;
+  margin: auto;
 }
 
 .tableDay {
   background: #1446a0;
-color: white;
-width: 10%;
-padding: 1%;
+  color: white;
+  width: 10%;
+  padding: 10px;
 }
 
 .weatherIcon {
-max-width: 50px;
+  max-width: 50px;
+  padding: 5px 27%;
 }
 
 .maxTemp {
-justify-content: center;
+  text-align: center;
+  color: red;
 }
 
 .minTemp {
+  text-align: center;
+  color: navy;
+  font-size: 0.95em;
+}
 
+.article,
+.contact {
+  background: #e1e8f7;
+  margin: 30px 0;
+  padding: 1px 20px 20px;
+}
+
+.article img {
+  float: right;
+  margin: 0 10px 10px 10px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.article a {
+  font-size: 0.9em;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.titleInfo {
+  font-weight: bold;
+}
+
+.map {
+  float: left;
+  height: 200px;
+  border: black solid 1px;
+  margin: 10px 50px -10px;
+}
+
+.icon {
+  max-width: 40px;
+  max-height: 40px;
+  border: none;
 }
