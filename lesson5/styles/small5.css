@@ -100,7 +100,6 @@
   .article img {
     width: 99%;
     margin: 0 0 10px;
-    display: static;
     border: solid gray 1px;
     box-shadow: none;
   }
