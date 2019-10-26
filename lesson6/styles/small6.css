@@ -1,0 +1,108 @@
+@media only screen and (max-width: 35em) {
+  main {
+    padding: 0px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    padding-left: 0;
+  }
+
+  h2 {
+    font-size: 1.1em;
+    margin: 0.5em;
+  }
+
+  header p {
+    font-size: 0.8em;
+    margin-top: -30px;
+  }
+
+  nav {
+    line-height: 2em;
+    text-align: center;
+    padding-right: 10px;
+    margin-top: 0px;
+  }
+
+  nav button {
+    line-height: 15px;
+    font-size: 20px;
+  }
+
+  nav button {
+    display: inline-block;
+    background: transparent;
+    border: none;
+    color: white;
+  }
+
+  nav ul.hide {
+    display: none;
+  }
+
+  nav ul li {
+    display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  nav ul li a {
+    display: block;
+    line-height: 15px;
+    font-size: 20px;
+  }
+
+  nav ul li:hover {
+    background: gray;
+    padding: 2px;
+  }
+
+  .logo img {
+    height: 80px;
+    padding: 0px;
+    padding-top: 4px;
+  }
+
+  #line1 {
+    font-size: 0.8em;
+  }
+
+  #line2,
+  #line3 {
+    font-size: 0.6em;
+  }
+
+  #pancake p {
+    font-size: 0.9em;
+  }
+
+  #content {
+    width: 100%;
+  }
+
+  .forecast,
+  .contact .map {
+    display: none;
+  }
+
+  .contact {
+    padding: 0;
+  }
+  
+.contact div p {
+  margin: 2px;
+}
+
+  .article img {
+    width: 99%;
+    margin: 0 0 10px;
+    border: solid gray 1px;
+    box-shadow: none;
+  }
+  
+  .icon {
+    max-width: 30px;
+    max-height: 30px;
+    border: none;
+  }
+}
