@@ -72,37 +72,7 @@
     font-size: 0.6em;
   }
 
-  #pancake p {
-    font-size: 0.9em;
-  }
-
   #content {
     width: 100%;
-  }
-
-  .forecast,
-  .contact .map {
-    display: none;
-  }
-
-  .contact {
-    padding: 0;
-  }
-
-  .contact div p {
-    margin: 2px;
-  }
-
-  .article img {
-    width: 99%;
-    margin: 0 0 10px;
-    border: solid gray 1px;
-    box-shadow: none;
-  }
-
-  .icon {
-    max-width: 30px;
-    max-height: 30px;
-    border: none;
   }
 }
