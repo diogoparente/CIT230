@@ -59,8 +59,43 @@ nav button {
   display: none;
 }
 
+figure {
+  max-width: 10%;
+}
+
 footer {
   border-radius: 0px;
+}
+
+.logo img {
+  height: 116px;
+  padding: 0px;
+  padding-top: 4px;
+}
+
+.pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pictures div {
+  border: 1px solid gray;
+  margin: 0 5% 5%;
+  background: #e1e8f7;
+}
+
+.pictures img {
+  max-width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.pictures figcaption {
+  font-size: 0.9em;
+  padding: 0 10px 5px 10px;
+}
+
+.pictures div:hover {
+  box-shadow: 0 0 30px gray;
 }
 
 #active-page {
@@ -74,8 +109,12 @@ footer {
   margin-bottom: 1px;
 }
 
-.logo img {
-  height: 116px;
-  padding: 0px;
-  padding-top: 4px;
+
+img[data-src] {
+  filter: blur(0.1em);
+}
+
+img { 
+  filter: blur(0em);
+  transition: filter 0.5s;
 }

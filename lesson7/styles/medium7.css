@@ -39,6 +39,14 @@
     padding-top: 4px;
   }
 
+  .pictures {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .pictures div:hover {
+    box-shadow: none;
+  }
+
   #line1 {
     font-size: 0.9em;
   }
@@ -47,5 +55,4 @@
   #line3 {
     font-size: 0.7em;
   }
-
 }
