@@ -90,7 +90,7 @@ footer {
   padding: 0 10px 5px 10px;
 }
 
-.pictures div:hover {
+.pictures figure:hover {
   box-shadow: 0 0 30px gray;
 }
 
