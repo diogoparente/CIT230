@@ -43,7 +43,7 @@
     grid-template-columns: 1fr 1fr;
   }
   
-  .pictures div:hover {
+  .pictures figure:hover {
     box-shadow: none;
   }
 
