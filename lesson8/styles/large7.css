@@ -1,0 +1,115 @@
+h1 {
+  padding: 1.0em 5px;
+  font-size: 2.5em;
+  border-radius: 0;
+  margin: 0px;
+}
+
+h2 {
+  font-family: 'Lobster', cursive, Arial;
+  font-size: 2.0em;
+  border: 0;
+  text-align: center;
+  padding: 0.5em;
+}
+
+header {
+  background: #028090;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+header p {
+  font-size: 1em;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+  margin-top: -50px;
+}
+
+nav {
+  background: #1446a0;
+  line-height: 3em;
+  text-align: center;
+  margin: -16px;
+}
+
+nav a {
+  color: white;
+  font-size: 1.0em;
+  line-height: 1.5px;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a:hover {
+  background: gray;
+  color: yellow;
+  padding: 15.5px 15px;
+}
+
+nav button {
+  display: none;
+}
+
+footer {
+  border-radius: 0px;
+}
+
+.logo img {
+  height: 116px;
+  padding: 0px;
+  padding-top: 4px;
+}
+
+.pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pictures figure {
+  border: 1px solid gray;
+  margin: 0 5% 5%;
+  background: #e1e8f7;
+}
+
+.pictures img {
+  max-width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.pictures figcaption {
+  font-size: 0.9em;
+  padding: 0 10px 5px 10px;
+}
+
+.pictures figure:hover {
+  box-shadow: 0 0 30px gray;
+}
+
+#active-page {
+  color: yellow;
+}
+
+#line3 {
+  font-size: 0.8em;
+  color: yellow;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img { 
+  filter: blur(0em);
+  transition: filter 1s;
+}

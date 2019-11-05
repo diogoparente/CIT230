@@ -1,0 +1,58 @@
+@media only screen and (max-width: 60em) {
+  h1 {
+    font-size: 2.0em;
+    padding: 1.0em 5px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  header p {
+    font-size: 0.9em;
+    margin-top: -40px;
+  }
+
+  nav {
+    line-height: 2em;
+    text-align: center;
+    margin-top: -16px;
+  }
+
+  nav a {
+    font-size: 0.9em;
+    padding: 10px;
+    line-height: 1px;
+  }
+
+  nav a:hover {
+    padding: 8px 10px;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  .logo img {
+    height: 100px;
+    padding: 0px;
+    padding-top: 4px;
+  }
+
+  .pictures {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .pictures figure:hover {
+    box-shadow: none;
+  }
+
+  #line1 {
+    font-size: 0.9em;
+  }
+
+  #line2,
+  #line3 {
+    font-size: 0.7em;
+  }
+}
