@@ -1,0 +1,43 @@
+table {
+  box-shadow: 10px 10px 10px #628ca6;
+ border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #c7c7c7;
+  border-collapse: collapse;
+  line-height: 30px;
+  text-align: center;
+  background: #e7f0ed;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0 10px;
+}
+
+tr:nth-child(even) td {
+  background:  #e7ffed;
+}
+
+thead td {
+  background: #7fb9c2;
+  font-weight: bold;
+  font-size: 1.6em;
+  line-height: 40px;
+}
+
+thead th {
+  background: #628ca6;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: white;
+}
+
+tfoot td {
+  background: #7fb9c2;
+  font-size: 0.75em;
+  line-height: 25px;
+}
+
+#cel {
+  background: #628ca6;
+  color: white;
+}
