@@ -63,10 +63,6 @@
     padding-top: 4px;
   }
   
-  .pictures {
-    grid-template-columns: 1fr;
-  }
-
   #line1 {
     font-size: 0.8em;
   }
@@ -78,5 +74,9 @@
 
   #content {
     width: 100%;
+  }
+
+  #area input {
+    min-width: 94%;
   }
 }

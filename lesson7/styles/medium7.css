@@ -46,6 +46,30 @@
   .pictures figure:hover {
     box-shadow: none;
   }
+  
+  .contact {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  
+  .contact p {
+    font-size: 0.8em;
+  }
+  
+  .map {
+    float: left;
+    height: 200px;
+    border: black solid 1px;
+    margin: 10px 10px -10px;
+  }
+  
+  .icon {
+    max-width: 30px;
+    max-height: 30px;
+    border: none;
+  }
 
   #line1 {
     font-size: 0.9em;
