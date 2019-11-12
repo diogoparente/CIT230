@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Weather Site Home Page for CIT 230: Weather Website">
+  <title>CIT 230 | Week 9 | Home</title>
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="styles/large9.css">
+  <link rel="stylesheet" href="styles/medium9.css">
+  <link rel="stylesheet" href="styles/small9.css">
+  <script src="../functions/dateVerify.js"></script>
+  <script src="../functions/Menu.js"></script>
+  <script src="../lesson7/functions/lazyload.js" defer></script>
+</head>
+
+<body onload="dates()">
+
+  <header>
+    <!-- HEADER SECTION -->
+    <!-- Nome, Título -->
+    <div class="logo">
+      <img src="../lesson3/images/logo_weather1.png" alt="Website logo">
+    </div>
+    <div>
+      <h1>The Weather for You</h1>
+      <p>The forecast you need for your weather.</p>
+    </div>
+  </header>
+
+  <nav>
+    <!-- Navigation links, direction to other pages -->
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="pageOptions" class="hide">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../lesson6/preston-6.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+      <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <div id="content">
+    <main>
+      <h2></h2>
+
+
+    </main>
+
+    <footer>
+      <!-- FOOTER SECTION -->
+      <p id="line1">&copy; <span id="currentYear"></span> | Diogo A. Parente | Brazil | <a
+          href="https://www.byui.edu/online" target="_blank">BYU-I Online
+          Learning</a></p>
+      <p id="line3">Last updated: <span id="dateModified"></span></p>
+      <p id="line2"><span id="currentDate"></span></p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
