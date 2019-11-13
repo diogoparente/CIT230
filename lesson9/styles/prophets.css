@@ -25,7 +25,8 @@ section {
 }
 
 img {
-  max-width: 100%;
+  max-width: 200px;
+  width: 80%;
   display: block;
   margin: auto;
 }
