@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, "Comic Sans MS", sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: black;
+  margin-top: 1px;
+  border-bottom: 1px solid #bbb;
+}
+
+section {
+  border: 1px solid gray;
+  background: #e1e8f7;
+  border-radius: 3px;
+  max-width: 90%;
+  padding: 10px;
+  margin: 5px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  padding: 5px;
+}
+
+/*---------- MEDIUM OR TABLET VIEW -------*/
+@media only screen and (max-width: 60em) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*---------- PHONE VIEW ------------------*/
+@media only screen and (max-width: 35em) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
