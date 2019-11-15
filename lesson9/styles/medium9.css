@@ -4,8 +4,9 @@
     padding: 1.0em 5px;
   }
 
-  h2 {
-    font-size: 1.5em;
+  .towns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   header p {
@@ -47,8 +48,4 @@
   #line3 {
     font-size: 0.7em;
   }
-  
-#area input {
-  min-width: 95%;
-}
 }

@@ -31,6 +31,3 @@ fetch(requestURL)
       document.querySelector('div.cards').appendChild(card);
     }
   });
-
-
- // <img class="image" src="images/Netflix.jpg" alt="Netflix platform"></img>

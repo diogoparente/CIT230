@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="styles/small9.css">
   <script src="../functions/dateVerify.js"></script>
   <script src="../functions/Menu.js"></script>
-  <script src="../lesson7/functions/lazyload.js" defer></script>
+  <script src="functions/towns.js"></script>
 </head>
 
 <body onload="dates()">
@@ -34,7 +34,7 @@
     <!-- Navigation links, direction to other pages -->
     <button onclick="toggleMenu()">&#9776; Menu</button>
     <ul id="pageOptions" class="hide">
-      <li><a href="../index.html">Home</a></li>
+      <li><a  id="active-page">Home</a></li>
       <li><a href="../lesson6/preston-6.html">Preston</a></li>
       <li><a href="#">Soda Springs</a></li>
       <li><a href="#">Fish Haven</a></li>
@@ -44,9 +44,10 @@
   </nav>
 
   <div id="content">
-    <main>
-      <h2></h2>
-
+      <main>
+        <h2></h2>
+          <div class="towns"> </div>
+      </main>
 
     </main>
 

@@ -13,10 +13,34 @@ h2 {
   padding: 0.5em;
 }
 
-legend {
-  margin: 0;
-  font-size: 1.5em;
+section {
+  background: #e1e8f7;
+  border-radius: 3px;
+  max-width: 90%;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+section p:nth-child(2) {
+  font-size: 0.9em;
   font-weight: bold;
+  font-style: italic;
+  color: navy;
+  margin: -35px 0px 40px 0;
+}
+
+main img {
+  max-width: 400px;
+  width: 95%;
+  display: block;
+  margin: auto;
+  border: 1px solid gray;
+}
+
+.towns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 header {
@@ -84,101 +108,4 @@ footer {
   color: yellow;
   margin-top: 1px;
   margin-bottom: 1px;
-}
-
-#tx {
-  text-align: center;
-  padding-bottom: 5%;
-}
-
-/*----------- STORM REPORT FORM --------------*/
-fieldset {
-  margin: 2rem 0;
-  border: 1px solid #445ba9;
-  border-radius: 10px;
-  padding: .5rem 2%;
-}
-
-legend {
-  color: #445ba9;
-  margin: 0 1em;
-  padding: 0 .5em;
-}
-
-.top, form div {
-  display: block;
-  padding-top: 1.5em;
-  font-size: 1em;
-}
-
-.top input, .top select {
-  display: block;
-  font-size: 1em;
-  border: solid 1px #999;
-  border-radius: 4px;
-  padding: .75rem;
-  color: #555;
-  width: 100%;
-  max-width: 20em;
-  background-color: rgba(0,0,0,0.1);
-}
-
-.top select {
-  max-width: 21.5em;
-}
-
-.sbs {
-  display: block;
-  font-size: 1em;
-  color: #555;
-  padding: .1rem 0;
-}
-
-.submitBtn {
-  border: none;
-  background-color: #9c2c13;
-  color: white;
-  border-radius: 0.5em;
-  padding: .75rem 1em;
-  margin: 0 0 2rem 2%;
-  width: 96%;
-  max-width: 20rem;
-}
-
-.top input:required {
-  border-left: red solid 6px;
-  max-width: 19.6em;
-}
-
-.top input:required:valid {
-  border-left: green solid 6px;
-  max-width: 19.6em;
-}
-
-#area {
-  width: 100%;
-  padding: 0px 25px 20px;  
-  margin: 0px -25px;
-}
-
-#area textarea {
-  min-width: 100%;
-  min-height: 100px;
-  text-justify: auto;
-  border-radius: 4px;
-}
-
-#severity {
-  max-width: 17em;
-}
-
-#severValue {
-  position: relative;
-  top: -37px;
-  left: 320px;
-}
-
-#region {
-  padding-top: 0;
-  margin-top: -10px;
 }
