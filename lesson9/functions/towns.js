@@ -9,34 +9,47 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
 
     for (let i = 0; i < towns.length; i++) {
-      if ((towns[i].name == "Fish Haven") || (towns[i].name == "Preston") || (towns[i].name == "Soda Springs")){
-      let card = document.createElement('section');
+      if ((towns[i].name == "Fish Haven") || (towns[i].name == "Preston") || (towns[i].name == "Soda Springs")) {
+        // CRIANDO CADA PEDAÇO DA SEÇÃÕ DE INFORMAÇÕES
+        // Seção - Container de todas as informações de cada cidade
+        let card = document.createElement('section');
 
-      let townName = document.createElement('h2');
-      townName.textContent = towns[i].name;
-      card.appendChild(townName);
+        // Divisões para conter textos e imagem (separados)
+        let divTexts = document.createElement('div');
+        let imgTexts = document.createElement('div');
 
-      let townMotto = document.createElement('p');
-      townMotto.textContent = towns[i].motto;
-      card.appendChild(townMotto);
+        // Pedaços para conter cada informação
+        let townName = document.createElement('h2');
+        let townMotto = document.createElement('p');
+        let year = document.createElement('p');
+        let people = document.createElement('p');
+        let rain = document.createElement('p');
+        let pict = document.createElement('img');
 
-      let year = document.createElement('p');
-      year.textContent = "Year Founded: " + towns[i].yearFounded;
-      card.appendChild(year);
+        // COPIANDO CADA INFORMAÇÃO NO SEU DEVIDO PEDAÇO
+        townName.textContent = towns[i].name;
+        townMotto.textContent = towns[i].motto;
+        year.textContent = "Year Founded: " + towns[i].yearFounded;
+        people.textContent = "Population: " + towns[i].currentPopulation;
+        rain.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
+        pict.setAttribute('src', "images/" + towns[i].photo);
+        pict.setAttribute('alt', towns[i].name);
 
-      let people = document.createElement('p');
-      people.textContent = "Population: " + towns[i].currentPopulation;
-      card.appendChild(people);
+        // ADICIONAR AS INFORMAÇÕES DE TEXTO NA DIVISÃO DE TEXTO
+        divTexts.appendChild(townName);
+        divTexts.appendChild(townMotto);
+        divTexts.appendChild(year);
+        divTexts.appendChild(people);
+        divTexts.appendChild(rain);
 
-      let rain = document.createElement('p');
-      rain.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
-      card.appendChild(rain);
+        // ADICIONAR A INFORMAÇÃO DE FIGURA NA DIVISÃO DE IMAGEM
+        imgTexts.appendChild(pict);
 
-      let pict = document.createElement('img');
-      pict.setAttribute('src', "images/" + towns[i].photo);
-      pict.setAttribute('alt', towns[i].name);
-      card.appendChild(pict);
+        // ADICIONAR AS DIVISÕES NA SEÇÃO
+        card.appendChild(divTexts);
+        card.appendChild(imgTexts);
 
-      document.querySelector('div.towns').appendChild(card);
-    }}
+        document.querySelector('div.towns').appendChild(card);
+      }
+    }
   });

@@ -99,6 +99,17 @@ footer {
   padding-top: 4px;
 }
 
+.links {
+  background: #e1e8f7;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px 5px;
+}
+
+.links p {
+  margin: 10px 0;
+}
+
 #active-page {
   color: yellow;
 }
@@ -108,4 +119,52 @@ footer {
   color: yellow;
   margin-top: 1px;
   margin-bottom: 1px;
+}
+
+.contact {
+  background: #e1e8f7;
+  margin: 30px 0;
+  padding: 1px 20px 20px;
+}
+
+.article img {
+  float: right;
+  margin: 0 10px 10px 10px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.article a {
+  font-size: 0.9em;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.titleInfo {
+  font-weight: bold;
+}
+
+.map {
+  float: left;
+  height: 200px;
+  width: 200px;
+  border: black solid 1px;
+  margin: 10px 50px -10px;
+}
+
+.icon {
+  max-width: 40px;
+  max-height: 40px;
+  border: none;
+}
+
+#icones {
+  display: flex;
+  justify-content: center;
+
 }
