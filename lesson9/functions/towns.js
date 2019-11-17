@@ -8,8 +8,9 @@ fetch(requestURL)
     console.table(jsonObject); // temporary checking for valid response and data parsing
     const towns = jsonObject['towns'];
 
-    for (let i = 0; i < towns.length; i++) {
-      if ((towns[i].name == "Fish Haven") || (towns[i].name == "Preston") || (towns[i].name == "Soda Springs")) {
+    //Começa com as informações de Preston (4), depois volta ao começo (0) para pegar as informações de Fish Haven (1)
+    for (let i = 4; i != 3; i++) {
+      if ((towns[i].name == "Preston") || (towns[i].name == "Soda Springs") || (towns[i].name == "Fish Haven")) {
         // CRIANDO CADA PEDAÇO DA SEÇÃÕ DE INFORMAÇÕES
         // Seção - Container de todas as informações de cada cidade
         let card = document.createElement('section');
@@ -50,6 +51,10 @@ fetch(requestURL)
         card.appendChild(imgTexts);
 
         document.querySelector('div.towns').appendChild(card);
+
+        if (i == 5) {
+          i = 0;
+        };
       }
     }
   });
