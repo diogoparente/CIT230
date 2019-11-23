@@ -64,11 +64,6 @@
     font-size: 0.8em;
   }
 
-  #line2,
-  #line3 {
-    font-size: 0.6em;
-  }
-
   #pancake p {
     font-size: 0.9em;
   }
@@ -101,5 +96,9 @@
     max-width: 30px;
     max-height: 30px;
     border: none;
+  }
+
+  #line2 {
+    font-size: 0.75em;
   }
 }

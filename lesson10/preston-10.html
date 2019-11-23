@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Preston Town Page for CIT 230: Weather Website">
+  <title>CIT 230 | Week 10 | Preston Town</title>
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="styles/large10.css">
+  <link rel="stylesheet" href="styles/medium10.css">
+  <link rel="stylesheet" href="styles/small10.css">
+  <script src="../functions/dateVerify.js"></script>
+  <script src="../functions/Menu.js"></script>
+</head>
+
+<body onload="dates()">
+
+  <div id="pancake" class="hideAlert">
+    <p><b>Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion.</b></p>
+  </div>
+  <header>
+    <!-- HEADER SECTION -->
+    <!-- Nome, Título -->
+    <div class="logo">
+      <img src="../lesson3/images/logo_weather1.png" alt="Website logo">
+    </div>
+    <div>
+      <h1>The Weather for You</h1>
+      <p>The forecast you need for your weather.</p>
+    </div>
+  </header>
+
+  <nav>
+    <!-- Navigation links, direction to other pages -->
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="pageOptions" class="hide">
+      <li><a href="../lesson9/index.html">Home</a></li>
+      <li><a id="active-page">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+      <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <div id="content">
+    <main>
+      <h2>Preston Idaho</h2>
+
+      <div class="hero">
+        <div class="summary">
+          <p>Weather Summary</p>
+          <table>
+            <tr>
+              <td class="left">Currently:</td>
+              <td class="right"><span id="condition"></span></td>
+            </tr>
+            <tr>
+              <td class="left">Temperature:</td>
+              <td class="right"><span id="tempF"></span> ºF</td>
+            </tr>
+            <tr>
+              <td class="left">Wind Chill:</td>
+              <td class="right"><span id="valueWindchill"></span></td>
+            </tr>
+            <tr>
+              <td class="left">Humidity:</td>
+              <td class="right"><span id="humid"></span>%</td>
+            </tr>
+            <tr>
+              <td class="left">Wind Speed:</td>
+              <td class="right"><span id="speed"></span> mph</td>
+            </tr>
+          </table>
+        </div>
+        <picture>
+          <source srcset="images/JoinvilleLarge.JPG" media="(min-width:1000px)">
+          <source srcset="images/JoinvilleMedium.JPG" media="(min-width:550px)">
+          <img class="jlle" src="images/JoinvilleSmall.JPG" alt="Joinville Main Entrance">
+        </picture>
+      </div>
+
+      <div class="forecast">
+        <h3>5 Day Forecast</h3>
+        <table class="weatherTable">
+          <tr>
+            <th class="tableDay"><span id="day1"></span></th>
+            <th class="tableDay"><span id="day2"></span></th>
+            <th class="tableDay"><span id="day3"></span></th>
+            <th class="tableDay"><span id="day4"></span></th>
+            <th class="tableDay"><span id="day5"></span></th>
+          </tr>
+          <tr>
+            <td><img class="weatherIcon" id="icon1" src="" alt=""></td>
+            <td><img class="weatherIcon" id="icon2" src="" alt=""></td>
+            <td><img class="weatherIcon" id="icon3" src="" alt=""></td>
+            <td><img class="weatherIcon" id="icon4" src="" alt=""></td>
+            <td><img class="weatherIcon" id="icon5" src="" alt=""></td>
+          </tr>
+          <tr>
+            <td class="maxTemp"><span id="temp_max1"></span> ºF</td>
+            <td class="maxTemp"><span id="temp_max2"></span> ºF</td>
+            <td class="maxTemp"><span id="temp_max3"></span> ºF</td>
+            <td class="maxTemp"><span id="temp_max4"></span> ºF</td>
+            <td class="maxTemp"><span id="temp_max5"></span> ºF</td>
+          </tr>
+          <tr>
+            <td class="minTemp"><span id="temp_min1"></span> ºF</td>
+            <td class="minTemp"><span id="temp_min2"></span> ºF</td>
+            <td class="minTemp"><span id="temp_min3"></span> ºF</td>
+            <td class="minTemp"><span id="temp_min4"></span> ºF</td>
+            <td class="minTemp"><span id="temp_min5"></span> ºF</td>
+          </tr>
+
+        </table>
+      </div>
+
+      <div class="article">
+        <h3>The Church in Brazil</h3>
+        <img src="../lesson5/images/chapel.jpg" alt="Chapel">
+        <p>The work of carrying the gospel to Brazil began a little more than one year after the introduction of
+          the gospel in Argentina, when two elders from Argentina came in 1927 in search of German Saints who had
+          settled
+          in Brazil. The elders stayed a month, and concluded that southern Brazil would be “a splendid field for the
+          future development of missionary work.”</p>
+        <p>Two later missionaries arrived from Argentina with President Stoof in 1928, also in search of members who had
+          emigrated from Germany and England. They found a small nucleus of German Saints in Joinville, a center of
+          16,000 German-speaking people, and over the next year they baptized more Germans. In 1929 they acquired the
+          first property for the Church in Brazil — an old house in Joinville that still serves as the meeting place for
+          the Joinville Ward of the Joinville North Brazil Stake.</p>
+        <p>Four years later, on February 9, 1935, the First Presidency made Brazil a separate mission under the
+          direction of President Rulon S. Howells, with seven deacons, four teachers, four priests, 29 male members with
+          no priesthood, 64 female members over 21, and 35 children — a total of 143 members and nine missionaries
+          scattered throughout the mission.</p>
+        <p>For almost ten years the elders worked among people not native to the land — and in a tongue that was not the
+          official national language! Work continued solely among the German immigrants and in the German language until
+          1938, when the first elders were assigned to learn Portuguese. That year President John Alden Bowers began
+          translating several tracts and the Book of Mormon into Portuguese — the first translations in that language in
+          the Church.</p>
+        <a href="https://www.churchofjesuschrist.org/study/ensign/1975/02/the-church-in-brazil?lang=eng"
+          target="_blank">Read the full article</a>
+      </div>
+
+      <div class="contact">
+        <div>
+          <img class="map" src="../lesson5/images/map.JPG" alt="Downtown">
+        </div>
+        <div>
+          <p class="titleInfo">The Weather For You</p>
+          <p>&odot; Brazil</p>
+          <p>&phone; +55 (12) 3456-7890</p>
+          <p>&#9993; foryou@theweather.com</p>
+          <div>
+            <!-- Social Media links -->
+            <a href="http://www.facebook.com/" target="_blank"><img class="icon"
+                src="../lesson5/images/icon-facebook.png" alt="Facebook"></a>
+            <a href="http://www.pinterest.com/" target="_blank"><img class="icon"
+                src="../lesson5/images/icon-pinterest.png" alt="Pinterest"></a>
+            <a href="http://www.twitter.com/" target="_blank"><img class="icon" src="../lesson5/images/icon-twitter.png"
+                alt="Twitter"></a>
+            <a href="http://www.instagram.com/" target="_blank"><img class="icon"
+                src="../lesson5/images/icon-instagram.png" alt="Instagram"></a>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <!-- FOOTER SECTION -->
+      <p id="line1">&copy; <span id="currentYear"></span> | Diogo A. Parente | Brazil | <a
+          href="https://www.byui.edu/online" target="_blank">BYU-I Online
+          Learning</a></p>
+      <p id="line2">Information about the weather provided by <a href="https://openweathermap.org" target="_blank"> Open
+          Weather Map</a></p>
+      <p id="line3">Last updated: <span id="dateModified"></span></p>
+      <p id="line4"><span id="currentDate"></span></p>
+    </footer>
+  </div>
+
+  <script src="functions/weatherapi.js"></script>
+</body>
+
+</html>
