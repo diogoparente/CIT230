@@ -42,8 +42,9 @@ fetch(apiURL_5Day)
         document.getElementById("icon" + day_number).alt = _5Day.list[i].weather[0].description;
 
         document.getElementById("day" + day_number).textContent = dayName[date.getDay()];
-        document.getElementById("temp_min" + day_number).textContent = Math.floor(_5Day.list[i].main.temp_min);
-        document.getElementById("temp_max" + day_number).textContent = Math.floor(_5Day.list[i].main.temp_max);
+        document.getElementById("temp" + day_number).textContent = Math.floor(_5Day.list[i].main.temp);
+        //document.getElementById("temp_min" + day_number).textContent = Math.floor(_5Day.list[i].main.temp_min);
+        //document.getElementById("temp_max" + day_number).textContent = Math.floor(_5Day.list[i].main.temp_max);
         day_number++;
       }
     }
