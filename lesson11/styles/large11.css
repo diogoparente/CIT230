@@ -13,36 +13,6 @@ h2 {
   padding: 0.5em;
 }
 
-section {
-  background: #e1e8f7;
-  border-radius: 3px;
-  max-width: 90%;
-  padding: 10px;
-  margin: 5px;
-  text-align: center;
-}
-
-section p:nth-child(2) {
-  font-size: 0.9em;
-  font-weight: bold;
-  font-style: italic;
-  color: navy;
-  margin: -35px 0px 40px 0;
-}
-
-main img {
-  max-width: 400px;
-  width: 95%;
-  display: block;
-  margin: auto;
-  border: 1px solid gray;
-}
-
-.towns {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 header {
   background: #028090;
   display: flex;
@@ -99,28 +69,85 @@ footer {
   padding-top: 4px;
 }
 
-.links {
-  background: #e1e8f7;
-  border-radius: 3px;
-  padding: 10px;
-  margin: 10px 5px;
-}
-
-.links p {
-  margin: 10px 0;
-}
-
 #active-page {
   color: yellow;
 }
 
-#line3 {
-  font-size: 0.8em;
-  color: yellow;
-  margin-top: 1px;
-  margin-bottom: 1px;
+#pancake p {
+  text-align: center;
+  font-size: 1.2em;
+  background-color: yellow;
+  padding: 10px;
+  margin: 0px;
 }
 
+.hideAlert {
+  display: none;
+}
+
+.forecast {
+  text-align: center;
+}
+
+.jlle {
+  width: 100%;
+}
+
+.summary {
+  background: #028090;
+  width: 200px;
+  padding: 1px 10px 10px;
+  opacity: 0.9;
+  position: absolute;
+  margin: 10px;
+}
+
+.summary p {
+  color: white;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.summary .left {
+  color: white;
+  text-align: end;
+  padding-left: 10px;
+}
+
+.summary .right {
+  color: yellow;
+  padding-left: 5px;
+}
+
+.weatherTable {
+  background: #e1e8f7;
+  max-width: 60%;
+  padding: 1%;
+  justify-items: center;
+  margin: auto;
+}
+
+.tableDay {
+  background: #1446a0;
+  color: white;
+  width: 10%;
+  padding: 10px;
+}
+
+.weatherIcon {
+  width: 50%;
+  max-width: 50px;
+  border: 2px solid #f2f4fc;
+  border-radius: 3px;
+}
+
+.maxTemp {
+  text-align: center;
+}
+
+.article,
 .contact {
   background: #e1e8f7;
   margin: 30px 0;
@@ -163,7 +190,17 @@ footer {
   border: none;
 }
 
-#icones {
-  display: flex;
-  justify-content: center;
+#line2 {
+  font-size: 0.9em;
+  color: white;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+#line3,
+#line4 {
+  font-size: 0.8em;
+  color: yellow;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }

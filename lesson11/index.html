@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Weather Site Home Page for CIT 230: Weather Website">
+  <title>CIT 230 | Week 11 | Home</title>
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="styles/large11.css">
+  <link rel="stylesheet" href="styles/medium11.css">
+  <link rel="stylesheet" href="styles/small11.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <script src="../functions/dateVerify.js"></script>
+  <script src="../functions/Menu.js"></script>
+  <script src="functions/towns.js"></script>
+</head>
+
+<body onload="dates()">
+
+  <header>
+    <!-- HEADER SECTION -->
+    <!-- Nome, Título -->
+    <div class="logo">
+      <img src="../lesson3/images/logo_weather1.png" alt="Website logo">
+    </div>
+    <div>
+      <h1>The Weather for You</h1>
+      <p>The forecast you need for your weather.</p>
+    </div>
+  </header>
+
+  <nav>
+    <!-- Navigation links, direction to other pages -->
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="pageOptions" class="hide">
+      <li><a id="active-page">Home</a></li>
+      <li><a href="preston.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+      <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <div id="content">
+    <main>
+      <div class="towns"> </div>
+
+      <div class="links">
+        <h3>Making of The Weather for You Website</h3>
+        <p>Following are links for the different layouts you can experience surfing our Home Page.</p>
+        <p><a href="images/desktopView.JPG" target="_blank">Desktop view</a></p>
+        <p><a href="images/tabletView.JPG" target="_blank">Tablet view</a></p>
+        <p><a href="images/mobileView.JPG" target="_blank">Phone view</a></p>
+      </div>
+
+      <div class="contact">
+        <div>
+          <img class="map" src="../lesson5/images/map.JPG" alt="Downtown">
+        </div>
+        <div>
+          <p class="titleInfo">The Weather For You</p>
+          <p>&odot; Brazil</p>
+          <p>&phone; +55 (12) 3456-7890</p>
+          <p>&#9993; foryou@theweather.com</p>
+          <div id="icones">
+            <!-- Social Media links -->
+            <a href="http://www.facebook.com/" target="_blank"><img class="icon"
+                src="../lesson5/images/icon-facebook.png" alt="Facebook"></a>
+            <a href="http://www.pinterest.com/" target="_blank"><img class="icon"
+                src="../lesson5/images/icon-pinterest.png" alt="Pinterest"></a>
+            <a href="http://www.twitter.com/" target="_blank"><img class="icon" src="../lesson5/images/icon-twitter.png"
+                alt="Twitter"></a>
+            <a href="http://www.instagram.com/" target="_blank"><img class="icon"
+                src="../lesson5/images/icon-instagram.png" alt="Instagram"></a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- FOOTER SECTION -->
+      <p id="line1">&copy; <span id="currentYear"></span> | Diogo A. Parente | Brazil | <a
+          href="https://www.byui.edu/online" target="_blank">BYU-I Online
+          Learning</a></p>
+      <p id="line3">Last updated: <span id="dateModified"></span></p>
+      <p id="line4"><span id="currentDate"></span></p>
+    </footer>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+h2 {
+  font-size: 2.0em;
+}
+
+section {
+  background: #e1e8f7;
+  border-radius: 3px;
+  max-width: 90%;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+section p:nth-child(2) {
+  font-size: 0.9em;
+  font-weight: bold;
+  font-style: italic;
+  color: navy;
+  margin: -35px 0px 40px 0;
+}
+
+main img {
+  max-width: 400px;
+  width: 95%;
+  display: block;
+  margin: auto;
+  border: 1px solid gray;
+}
+
+.towns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.links {
+  background: #e1e8f7;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px 5px;
+}
+
+.links p {
+  margin: 10px 0;
+}
+
+.icon {
+  max-width: 40px;
+  max-height: 40px;
+  border: none;
+}
+
+#icones {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 60em) {
+  h2 {
+    font-size: 1.7em;
+  }
+
+  .towns {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 105%;
+  }
+
+  .towns section div:nth-child(1) {
+    max-width: 30%;
+  }
+
+  .towns section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .towns section:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+}
+
+@media only screen and (max-width: 35em) {
+  main {
+    margin-top: 20px;
+  }
+
+h2 {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.contact {
+  padding: 5px;
+}
+
+.towns {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .towns section div:nth-child(1) {
+    max-width: 100%;
+  }
+
+  .towns section {
+    display: block;
+  }
+ 
+  .icon {
+    max-width: 30px;
+    max-height: 30px;
+    border: none;
+  }
+}

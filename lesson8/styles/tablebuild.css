@@ -1,9 +1,10 @@
 table {
   box-shadow: 10px 10px 10px #628ca6;
- border-collapse: collapse;
+  border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #c7c7c7;
   border-collapse: collapse;
   line-height: 30px;
@@ -14,7 +15,7 @@ th, td {
 }
 
 tr:nth-child(even) td {
-  background:  #e7ffed;
+  background: #e7ffed;
 }
 
 thead td {

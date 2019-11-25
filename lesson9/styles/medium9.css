@@ -19,12 +19,11 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-}
+  }
 
-.towns section:nth-child(2) {
-  flex-direction: row-reverse;
-
-}
+  .towns section:nth-child(2) {
+    flex-direction: row-reverse;
+  }
 
   header p {
     font-size: 0.9em;
