@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Storm Center Page for CIT 230: Weather Website">
+  <title>CIT 230 | Week 8 | Storm Center</title>
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="styles/large11.css">
+  <link rel="stylesheet" href="styles/medium11.css">
+  <link rel="stylesheet" href="styles/small11.css">
+  <link rel="stylesheet" href="styles/stormcenter.css">
+  <script src="../functions/dateVerify.js"></script>
+  <script src="../functions/Menu.js"></script>
+</head>
+
+<body onload="dates()">
+
+  <header>
+    <!-- HEADER SECTION -->
+    <!-- Nome, Título -->
+    <div class="logo">
+      <img src="../lesson3/images/logo_weather1.png" alt="Website logo">
+    </div>
+    <div>
+      <h1>The Weather for You</h1>
+      <p>The forecast you need for your weather.</p>
+    </div>
+  </header>
+
+  <nav>
+    <!-- Navigation links, direction to other pages -->
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="pageOptions" class="hide">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="preston.html">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="stormcenter.html">Storm Center</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <div id="content">
+    <main>
+      <h2>Thank you</h2>
+      <p id="tx">Your report has been received by the Storm Center.</p>
+
+    </main>
+
+    <footer>
+      <!-- FOOTER SECTION -->
+      <p id="line1">&copy; <span id="currentYear"></span> | Diogo A. Parente | Brazil | <a
+          href="https://www.byui.edu/online" target="_blank">BYU-I Online
+          Learning</a></p>
+      <p id="line3">Last updated: <span id="dateModified"></span></p>
+      <p id="line4"><span id="currentDate"></span></p>
+    </footer>
+  </div>
+
+</body>
+
+</html>

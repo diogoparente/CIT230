@@ -4,17 +4,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Weather Site Home Page for CIT 230: Weather Website">
-  <title>CIT 230 | Week 11 | Home</title>
+  <meta name="description" content="Gallery Page for CIT 230: Weather Website">
+  <title>CIT 230 | Week 11 | Gallery</title>
   <link rel="stylesheet" href="../styles/normalize.css">
   <link rel="stylesheet" href="../styles/styles.css">
   <link rel="stylesheet" href="styles/large11.css">
   <link rel="stylesheet" href="styles/medium11.css">
   <link rel="stylesheet" href="styles/small11.css">
-  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/gallery.css">
   <script src="../functions/dateVerify.js"></script>
   <script src="../functions/Menu.js"></script>
-  <script src="functions/towns.js"></script>
+  <script src="functions/lazyload.js" defer></script>
 </head>
 
 <body onload="dates()">
@@ -35,25 +35,56 @@
     <!-- Navigation links, direction to other pages -->
     <button onclick="toggleMenu()">&#9776; Menu</button>
     <ul id="pageOptions" class="hide">
-      <li><a id="active-page">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="preston.html">Preston</a></li>
       <li><a href="#">Soda Springs</a></li>
       <li><a href="#">Fish Haven</a></li>
       <li><a href="stormcenter.html">Storm Center</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
+      <li><a id="active-page">Gallery</a></li>
     </ul>
   </nav>
 
   <div id="content">
     <main>
-      <div class="towns"> </div>
+      <h2>Weather Gallery</h2>
 
-      <div class="links">
-        <h3>Making of The Weather for You Website</h3>
-        <p>Following are links for the different layouts you can experience surfing our Home Page.</p>
-        <p><a href="images/desktopView.JPG" target="_blank">Desktop view</a></p>
-        <p><a href="images/tabletView.JPG" target="_blank">Tablet view</a></p>
-        <p><a href="images/mobileView.JPG" target="_blank">Phone view</a></p>
+      <div class="pictures">
+        <figure>
+          <img src="../lesson7/images/Placeholder2.png" data-src="../lesson7/images/sunny.jpg" alt="Sunny">
+          <figcaption>Clear sunny day</figcaption>
+        </figure>
+        <figure>
+          <img src="../lesson7/images/Placeholder2.png" data-src="../lesson7/images/snow.jpg" alt="Snow">
+          <figcaption>Cold winter</figcaption>
+        </figure>
+        <figure>
+          <img src="../lesson7/images/Placeholder2.png" data-src="../lesson7/images/cloudy.jpg" alt="Cloudy">
+          <figcaption>Cloudy and dark</figcaption>
+        </figure>
+        <figure>
+          <img src="../lesson7/images/Placeholder2.png" data-src="../lesson7/images/rainy.jpg" alt="Rainy">
+          <figcaption>Rainy</figcaption>
+        </figure>
+        <figure>
+          <img src="../lesson7/images/Placeholder2.png" data-src="../lesson7/images/snowy.jpg" alt="Snowy">
+          <figcaption>Snowy</figcaption>
+        </figure>
+        <figure>
+          <img src="../lesson7/images/Placeholder2.png" data-src="../lesson7/images/wind.jpg" alt="Windy">
+          <figcaption>Windy</figcaption>
+        </figure>
+        <figure>
+          <img src="../lesson7/images/Placeholder2.png" data-src="../lesson7/images/storm.jpg" alt="Stormy">
+          <figcaption>Stormy</figcaption>
+        </figure>
+        <figure>
+          <img src="../lesson7/images/Placeholder2.png" data-src="../lesson7/images/tornado.jpg" alt="Tornado">
+          <figcaption>Tornado</figcaption>
+        </figure>
+        <figure>
+          <img src="../lesson7/images/Placeholder2.png" data-src="../lesson7/images/hurricane.jpg" alt="Hurricane">
+          <figcaption>Hurricane</figcaption>
+        </figure>
       </div>
 
       <div class="contact">
@@ -65,7 +96,7 @@
           <p>&odot; Brazil</p>
           <p>&phone; +55 (12) 3456-7890</p>
           <p>&#9993; foryou@theweather.com</p>
-          <div id="icones">
+          <div>
             <!-- Social Media links -->
             <a href="http://www.facebook.com/" target="_blank"><img class="icon"
                 src="../lesson5/images/icon-facebook.png" alt="Facebook"></a>
