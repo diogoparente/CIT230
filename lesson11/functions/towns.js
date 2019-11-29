@@ -50,7 +50,7 @@ fetch(requestURL)
         card.appendChild(divTexts);
         card.appendChild(imgTexts);
 
-        document.querySelector('div.towns').appendChild(card);
+        document.querySelector('.towns').appendChild(card);
 
         if (i == 5) {
           i = 0;

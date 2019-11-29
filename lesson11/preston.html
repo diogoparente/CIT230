@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="styles/small11.css">
   <script src="../functions/dateVerify.js"></script>
   <script src="../functions/Menu.js"></script>
+  <script src="functions/preston.js"></script>
 </head>
 
 <body onload="dates()">
@@ -38,8 +39,8 @@
     <ul id="pageOptions" class="hide">
       <li><a href="index.html">Home</a></li>
       <li><a id="active-page">Preston</a></li>
-      <li><a href="#">Soda Springs</a></li>
-      <li><a href="#">Fish Haven</a></li>
+      <li><a href="sodasprings.html">Soda Springs</a></li>
+      <li><a href="fishhaven.html">Fish Haven</a></li>
       <li><a href="stormcenter.html">Storm Center</a></li>
       <li><a href="gallery.html">Gallery</a></li>
     </ul>
@@ -47,7 +48,7 @@
 
   <div id="content">
     <main>
-      <h2>Preston Idaho</h2>
+      <h2>Preston, Idaho</h2>
 
       <div class="hero">
         <div class="summary">
@@ -78,7 +79,7 @@
         <picture>
           <source srcset="../lesson10/images/JoinvilleLarge.JPG" media="(min-width:1000px)">
           <source srcset="../lesson10/images/JoinvilleMedium.JPG" media="(min-width:550px)">
-          <img class="jlle" src="../lesson10/images/JoinvilleSmall.JPG" alt="Joinville Main Entrance">
+          <img class="jlle" src="../lesson10/images/JoinvilleSmall.JPG" alt="City's Main Entrance">
         </picture>
       </div>
 
@@ -106,13 +107,17 @@
             <td class="maxTemp"><span id="temp4"></span> ºF</td>
             <td class="maxTemp"><span id="temp5"></span> ºF</td>
           </tr>
-
         </table>
+      </div>
+
+      <div class="event">
+        <h3>Upcoming Events for Preston</h3>
+        <div class="townEvents"> </div>
       </div>
 
       <div class="article">
         <h3>The Church in Brazil</h3>
-        <img src="../lesson5/images/chapel.jpg" alt="Chapel">
+        <img src="../lesson5/images/chapel.jpg" alt="The first chapel in Brazil">
         <p>The work of carrying the gospel to Brazil began a little more than one year after the introduction of
           the gospel in Argentina, when two elders from Argentina came in 1927 in search of German Saints who had
           settled
@@ -138,7 +143,7 @@
 
       <div class="contact">
         <div>
-          <img class="map" src="../lesson5/images/map.JPG" alt="Downtown">
+          <img class="map" src="../lesson5/images/map.JPG" alt="Downtown map">
         </div>
         <div>
           <p class="titleInfo">The Weather For You</p>
@@ -173,7 +178,7 @@
     </footer>
   </div>
 
-  <script src="functions/weatherPreston.js"></script>
+  <script src="functions/preston.js"></script>
 </body>
 
 </html>

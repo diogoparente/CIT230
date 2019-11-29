@@ -72,6 +72,15 @@
     width: 100%;
   }
 
+  .townEvents {
+    min-width: 100%;
+  }
+
+  .event h3 {
+    min-width: 100%;
+    border-radius: 0;
+    }
+
   .forecast,
   .contact .map {
     display: none;

@@ -1,5 +1,5 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=b285b20fa82efc1c3fed473c86303dd2&units=imperial";
-//(--JOINVILLE--) const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=3459712&APPID=b285b20fa82efc1c3fed473c86303dd2";
+// FISH HAVEN (Bear Lake Sands) - CURRENT WEATHER ---------------------------------
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5585010&APPID=b285b20fa82efc1c3fed473c86303dd2&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -21,8 +21,7 @@ fetch(apiURL)
   });
 
 // 5 DAY FORECAST -----------------------------------------------------------------
-const apiURL_5Day = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=b285b20fa82efc1c3fed473c86303dd2&units=imperial";
-//(--JOINVILLE--) const apiURL_5Day = "https://api.openweathermap.org/data/2.5/forecast?id=3459712&APPID=b285b20fa82efc1c3fed473c86303dd2";
+const apiURL_5Day = "https://api.openweathermap.org/data/2.5/forecast?id=5585010&APPID=b285b20fa82efc1c3fed473c86303dd2&units=imperial";
 
 fetch(apiURL_5Day)
   .then((response) => response.json())

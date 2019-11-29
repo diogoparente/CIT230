@@ -13,6 +13,11 @@ h2 {
   padding: 0.5em;
 }
 
+h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
 header {
   background: #028090;
   display: flex;
@@ -85,7 +90,7 @@ footer {
   display: none;
 }
 
-.forecast {
+.forecast, .event {
   text-align: center;
 }
 
@@ -127,10 +132,12 @@ footer {
   padding: 1%;
   justify-items: center;
   margin: auto;
+  border-radius: 0 0 10px 10px;
+  min-width: 450px;
 }
 
 .tableDay {
-  background: #1446a0;
+  background: #028090;
   color: white;
   width: 10%;
   padding: 10px;
@@ -146,6 +153,38 @@ footer {
 .maxTemp {
   text-align: center;
 }
+
+.townEvents {
+  background: #e1e8f7;
+  max-width: 60%;
+  margin: auto;
+  padding: 20px 0;  
+  border-radius: 0 0 10px 10px;
+  min-width: 450px;
+}
+
+.townEvents p {
+  margin: 0 0 10px 0;
+}
+
+.townEvents img {
+  width: 400px;
+  max-width: 90%;
+border: solid 1px black;
+border-radius: 10px;
+box-shadow: 5px 5px 10px gray;
+}
+
+.forecast h3, .event h3 {
+  background: #1446a0;
+  color: white;
+  padding: 10px 0;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px 10px 0 0;
+  min-width: 450px;
+  }
 
 .article,
 .contact {
