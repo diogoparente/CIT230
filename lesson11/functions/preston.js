@@ -47,16 +47,6 @@ fetch(apiURL_5Day)
   });
 
 // UPCOMING EVENTS ----------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
 const townsURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
 fetch(townsURL)
@@ -66,8 +56,6 @@ fetch(townsURL)
   .then(function (jsonObject) {
     console.table(jsonObject); // temporary checking for valid response and data parsing
     const towns = jsonObject['towns'];
-
-
     
     //Começa com as informações de Preston (4), depois volta ao começo (0) para pegar as informações de Fish Haven (1)
     for (let i = 0; i < towns.length; i++) {
@@ -109,7 +97,6 @@ fetch(townsURL)
         card.appendChild(imgTexts);
 
         document.querySelector('.townEvents').appendChild(card);
-
       }
     }
   });
