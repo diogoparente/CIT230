@@ -1,0 +1,81 @@
+body {
+  font-family: Roboto, Arial;
+}
+
+/* HEADER ------------------------------------------*/
+header {
+  background: #4F9D69;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+header h1 {
+  font-family: Raleway, Arial;
+  color: white;
+  font-size: 2.5em;
+  margin-left: 20px;
+}
+
+header p {
+  font-family: Raleway, Arial;
+  color: rgba(245, 237, 237, 0.904);
+  font-size: 1.2em;
+  margin-left: 20px;
+  margin-top: -27px;
+}
+
+.logo img {
+  height: 116px;
+  padding-top: 4px;
+  border-radius: 10px;
+}
+
+/* NAVIGATION BAR ----------------------------------*/
+nav {
+  background: #68D89B;
+  line-height: 3em;
+  text-align: center;
+  margin: -10px 20%;
+  border-radius: 25px;
+}
+
+nav a {
+  font-family: Roboto, Arial;
+  color: white;
+  font-size: 1.2em;
+  line-height: 1.5px;
+  text-decoration: none;
+  padding: 15px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a:hover {
+  background: #4F9D69;
+  color: yellow;
+  padding: 11px 15px 12px;
+  line-height: 2em;
+  border-bottom: solid black 2px;
+}
+
+nav button {
+  display: none;
+}
+
+#pageOptions {
+  padding: 0;
+}
+
+
+
+/* HEADER ------------------------------------------*/
+/* HEADER ------------------------------------------*/
+/* HEADER ------------------------------------------*/
+/* HEADER ------------------------------------------*/
+/* HEADER ------------------------------------------*/
+/* HEADER ------------------------------------------*/
+/* HEADER ------------------------------------------*/
