@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="styles/large.css">
   <link rel="stylesheet" href="styles/medium.css">
   <link rel="stylesheet" href="styles/small.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto&display=swap" rel="stylesheet"><script src="functions/dateVerify.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto&display=swap" rel="stylesheet">
+  <script src="functions/dateVerify.js"></script>
   <script src="functions/Menu.js"></script>
   <!-- <script src="functions/temples.js"></script> -->
 </head>
@@ -29,9 +30,11 @@
     </div>
   </header>
 
+  <button class="botaoMenu" onclick="toggleMenu()">&#9776; Menu</button>
+
   <nav>
     <!-- Navigation links, direction to other pages -->
-    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <button class="botaoMenu" onclick="toggleMenu()">&#9776; Menu</button>
     <ul id="pageOptions" class="hide">
       <li><a id="active-page">Home</a></li>
       <li><a href="temples.html">Temples</a></li>
@@ -42,4 +45,5 @@
   </nav>
 
 </body>
+
 </html>

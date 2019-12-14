@@ -1,5 +1,6 @@
 body {
   font-family: Roboto, Arial;
+  background: #edffe3;
 }
 
 /* HEADER ------------------------------------------*/
@@ -62,7 +63,7 @@ nav a:hover {
   border-bottom: solid black 2px;
 }
 
-nav button {
+.botaoMenu, nav button {
   display: none;
 }
 
@@ -70,6 +71,9 @@ nav button {
   padding: 0;
 }
 
+#active-page {
+  color: yellow;
+}
 
 
 /* HEADER ------------------------------------------*/
