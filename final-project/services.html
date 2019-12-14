@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Temple Inn & Suites Website for CIT 230: Services Page">
+  <title>CIT 230 | Final | Services</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto&display=swap" rel="stylesheet">
+  <script src="functions/dateVerify.js"></script>
+  <script src="functions/Menu.js"></script>
+</head>
+
+<body onload="dates()">
+
+  <header>
+    <!-- HEADER SECTION -->
+    <!-- Nome, Título -->
+    <div class="logo">
+      <img src="images/logo.jpg" alt="Website logo">
+    </div>
+    <div>
+      <h1>The Temple Inn & Suites</h1>
+      <p>Caring and serving</p>
+    </div>
+  </header>
+
+  <nav>
+    <!-- Navigation links, direction to other pages -->
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="pageOptions" class="hide">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="temples.html">Temples</a></li>
+      <li><a href="reservation.html">Reservation</a></li>
+      <li><a id="active-page">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Services</h2>
+  </main>
+
+  <footer>
+    <!-- FOOTER SECTION -->
+    <p id="line1">&copy; <span id="currentYear"></span> | Diogo A. Parente | Brazil | <a
+        href="https://www.byui.edu/online" target="_blank">BYU-I Online
+        Learning</a></p>
+    <p id="line3">Last updated: <span id="dateModified"></span></p>
+    <p id="line4"><span id="currentDate"></span></p>
+  </footer>
+
+</body>
+
+</html>
