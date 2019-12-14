@@ -1,64 +1,87 @@
 @media only screen and (max-width: 35em) {
-  /* HEADER ------------------------------------------*/  
+
+  /* HEADER ------------------------------------------*/
   header h1 {
-      font-size: 1.5em;
-      margin-left: 10px;
-    }
-  
-    header p {
-      font-size: 0.9em;
-      margin-left: 10px;
-      margin-top: -14px;
-    }
-  
-    .logo img {
-      height: 80px;
-      border-radius: 6px;
-    }
-
-/* NAVIGATION BAR ----------------------------------*/
-#active-page {
-  display: none;
-}
-
-nav {
-  line-height: 2em;
-  text-align: center;
-  padding-right: 10px;
-  margin-top: 0px;
-
-
-  
-  margin: 0;
-  border-radius: 1px;
-}
-/*
-.botaoMenu, nav button {
-  line-height: 15px;
-  font-size: 20px;
-  display: inline-block;
-  background: transparent;
-  border: none;
-  color: white;
-}
-/*
-nav ul.hide {
-  display: none;
-}
-
-
-/*
-nav ul li a {
-  display: block;
-  line-height: 15px;
-  font-size: 20px;
-}
-/*
-nav ul li:hover {
-  border-top: solid black 2px;
-}
-/*
-nav ul li {  border-top: 1px solid rgba(255, 255, 255, 0.5);
-}
-*/
+    font-size: 1.5em;
+    margin-left: 10px;
   }
+
+  header p {
+    font-size: 0.9em;
+    margin-left: 10px;
+    margin-top: -14px;
+  }
+
+  .logo img {
+    height: 80px;
+    border-radius: 6px;
+  }
+
+  /* NAVIGATION BAR ----------------------------------*/
+  #active-page {
+    display: none;
+  }
+
+  nav {
+    line-height: 2em;
+    text-align: right;
+    padding: 0 10px;
+    margin-top: 0px;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  nav button {
+    line-height: 10px;
+    font-size: 20px;
+    display: inline-block;
+    background: transparent;
+    border: none;
+    color: white;
+  }
+
+  nav ul.hide {
+    display: none;
+  }
+
+  nav ul li {
+    display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  nav ul li a {
+    display: block;
+    line-height: 15px;
+    font-size: 20px;
+  }
+
+  nav a:hover {
+    padding: 0px 10px 0px;
+    border-top: solid black 2px;
+  }
+
+  nav ul li:hover {
+    display: block;
+    border-top: 0;
+  }
+
+/* FOOTER ------------------------------------------*/
+footer {
+  padding: 0.2em;
+}
+
+#line1 {
+  font-size: 0.9em;
+}
+
+#line2 {
+  font-size: 0.8em;
+}
+
+#line3,
+#line4 {
+  font-size: 0.75em;
+}
+
+
+}

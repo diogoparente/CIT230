@@ -75,11 +75,28 @@ nav a:hover {
   color: yellow;
 }
 
+/* FOOTER ------------------------------------------*/
+footer {
+  background: #4F9D69;
+  padding: 0.4em;
+  text-align: center;
+}
 
-/* HEADER ------------------------------------------*/
-/* HEADER ------------------------------------------*/
-/* HEADER ------------------------------------------*/
-/* HEADER ------------------------------------------*/
-/* HEADER ------------------------------------------*/
-/* HEADER ------------------------------------------*/
-/* HEADER ------------------------------------------*/
+#line1, #line2 {
+  font-size: 1em;
+  color: white;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+#line2 {
+  font-size: 0.9em;
+}
+
+#line3,
+#line4 {
+  font-size: 0.8em;
+  color: rgba(245, 237, 237, 0.904);
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
