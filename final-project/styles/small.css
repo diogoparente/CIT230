@@ -83,7 +83,23 @@
     padding-top: 36%;
   }
 
-
+  h3 {
+    font-size: 1.3em;
+  }
+  
+  .content {
+    margin: 0 10% 30px;
+    flex-flow: column;
+  }
+  
+  .content img {
+    width: 100%;
+  }
+  
+  .content .text {
+    padding: 10px;
+    font-size: 0.9em;
+  }
 
 
 

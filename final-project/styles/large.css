@@ -1,6 +1,7 @@
 body {
   font-family: Roboto, Arial;
-  background: #edffe3;
+  /*background: #edffe3;*/
+  background: white;
 }
 
 /* HEADER ------------------------------------------*/
@@ -108,11 +109,29 @@ nav button {
   padding-top: 35%;
 }
 
+h3 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
 
+.content {
+  background: #edffe3;
+  margin: 0 10% 30px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center;
+}
 
+.content img {
+  max-width: 100%;
+  min-width: 300px;
+}
 
-
-
+.content .text {
+  padding: 10px;
+  font-size: 1em;
+}
 
 
 
@@ -124,8 +143,7 @@ nav button {
   background: #bcffdb;
   padding: 10px 10px;
   display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
+  flex-flow: row;
   justify-content: center;
   box-shadow: 0 -5px 10px #bcffdb;
 }
@@ -174,3 +192,5 @@ footer {
   margin-top: 1px;
   margin-bottom: 1px;
 }
+
+/* CONTACT PAGE ------------------------------------*/
