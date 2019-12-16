@@ -1,4 +1,5 @@
 @media only screen and (max-width: 60em) {
+
   /* HEADER ------------------------------------------*/
   header h1 {
     font-size: 2.0em;
@@ -22,20 +23,39 @@
     margin: -12px 10%;
     border-radius: 20px;
   }
-  
+
   nav a {
     font-size: 1em;
     padding: 10px;
   }
-  
+
   nav a:hover {
     padding: 9px 10px 9px;
   }
-  
-  .botaoMenu, nav button {
+
+  .botaoMenu,
+  nav button {
     display: none;
   }
- 
-/* FOOTER ------------------------------------------*/
+
+  /* BANNER - HERO IMAGE -----------------------------*/
+  .banner {
+    margin-top: -52px;
+  }
+  
+  .reserveButton {
+    width: 75%;
+    font-size: 1.7em;
+    padding: 3% 0;
+    margin: 12.5%;
+    margin-top: 15%;
+  }
+
+  /* MAIN --------------------------------------------*/
+  h2 {
+    padding-top: 33%;
+  }
+
+  /* FOOTER ------------------------------------------*/
 
 }

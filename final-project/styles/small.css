@@ -65,23 +65,41 @@
     border-top: 0;
   }
 
-/* FOOTER ------------------------------------------*/
-footer {
-  padding: 0.2em;
-}
+  /* BANNER - HERO IMAGE -----------------------------*/
+  .banner {
+    margin-top: -20px;
+  }
 
-#line1 {
-  font-size: 0.9em;
-}
+  .reserveButton {
+    width: 80%;
+    font-size: 1.5em;
+    padding: 3% 0;
+    margin: 10%;
+    margin-top: 15%;
+  }
 
-#line2 {
-  font-size: 0.8em;
-}
+  /* MAIN --------------------------------------------*/
+  h2 {
+    padding-top: 36%;
+  }
 
-#line3,
-#line4 {
-  font-size: 0.75em;
-}
+  /* FOOTER ------------------------------------------*/
+  footer {
+    padding: 0.2em;
+  }
+
+  #line1 {
+    font-size: 0.9em;
+  }
+
+  #line2 {
+    font-size: 0.8em;
+  }
+
+  #line3,
+  #line4 {
+    font-size: 0.75em;
+  }
 
 
 }
