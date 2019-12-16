@@ -83,6 +83,33 @@
     padding-top: 36%;
   }
 
+
+
+
+
+
+
+
+
+/* CONTACT -----------------------------------------*/
+.contact {
+  padding: 0;
+}
+
+.contact p {
+  font-size: 0.9em;
+}
+
+iframe {
+display: none;
+}
+
+.icon {
+  max-width: 35px;
+  max-height: 35px;
+  border: none;
+}
+
   /* FOOTER ------------------------------------------*/
   footer {
     padding: 0.2em;

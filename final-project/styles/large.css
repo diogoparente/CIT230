@@ -104,8 +104,48 @@ nav button {
 }
 
 /* MAIN --------------------------------------------*/
-h2 {
+.indexH2 {
   padding-top: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT -----------------------------------------*/
+.contact {
+  background: #bcffdb;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  box-shadow: 0 -5px 10px #bcffdb;
+}
+
+.titleInfo {
+  font-weight: bold;
+}
+
+iframe {
+  float: left;
+  height: 250px;
+  width: 400px;
+  border: black solid 1px;
+  margin-right: 50px;
+}
+
+.icon {
+  max-width: 40px;
+  max-height: 40px;
+  border: none;
 }
 
 /* FOOTER ------------------------------------------*/

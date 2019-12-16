@@ -42,7 +42,7 @@
   .banner {
     margin-top: -52px;
   }
-  
+
   .reserveButton {
     width: 75%;
     font-size: 1.7em;
@@ -55,6 +55,38 @@
   h2 {
     padding-top: 33%;
   }
+
+
+
+
+
+
+
+
+
+
+/* CONTACT -----------------------------------------*/
+.contact {
+  padding: 10px 10px;
+}
+
+.contact p {
+  font-size: 0.9em;
+  margin: 3px 0;
+}
+
+iframe {
+  height: 200px;
+  width: 300px;
+  border: black solid 1px;
+  margin-right: 10px;
+}
+
+.icon {
+  max-width: 35px;
+  max-height: 35px;
+  border: none;
+}
 
   /* FOOTER ------------------------------------------*/
 
