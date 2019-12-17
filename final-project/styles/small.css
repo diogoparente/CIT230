@@ -86,45 +86,39 @@
   h3 {
     font-size: 1.3em;
   }
-  
+
   .content {
     margin: 0 10% 30px;
     flex-flow: column;
   }
-  
+
   .content img {
     width: 100%;
   }
-  
+
   .content .text {
     padding: 10px;
     font-size: 0.9em;
   }
 
+  /* CONTACT -----------------------------------------*/
+  .contact {
+    padding: 0;
+  }
 
+  .contact p {
+    font-size: 0.9em;
+  }
 
+  iframe {
+    display: none;
+  }
 
-
-
-
-/* CONTACT -----------------------------------------*/
-.contact {
-  padding: 0;
-}
-
-.contact p {
-  font-size: 0.9em;
-}
-
-iframe {
-display: none;
-}
-
-.icon {
-  max-width: 35px;
-  max-height: 35px;
-  border: none;
-}
+  .icon {
+    max-width: 35px;
+    max-height: 35px;
+    border: none;
+  }
 
   /* FOOTER ------------------------------------------*/
   footer {
@@ -144,5 +138,30 @@ display: none;
     font-size: 0.75em;
   }
 
+  /* RESERVATION PAGE --------------------------------*/
+  fieldset {
+    margin: 1em;
+  }
 
+  .top,
+  form div {
+    padding-top: 1em;
+    font-size: 0.9em;
+  }
+
+  .sbs {
+    font-size: 0.9em;
+  }
+
+  .submitBtn {
+    padding: .75em 1em;
+    margin: 0 1em 1em;
+    width: 96%;
+    max-width: 19.4em;
+    font-size: 0.95em;
+  }
+
+  #area {
+    width: 99%;
+  }
 }

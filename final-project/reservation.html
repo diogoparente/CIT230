@@ -42,76 +42,43 @@
   </nav>
 
 <main>
-  <h2>Reservation</h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <form method="get" action="thanks.html">
+  <form method="get" action="confirmation.html">
     <fieldset>
-      <legend>Storm Report</legend>
-      <label class="top">Full Name* <input type="text" name="name" placeholder="Your name" pattern="[A-z\s]{5,}"
-          required></label>
-      <label class="top">Email* <input type="email" name="email" placeholder="name@email.com" required></label>
-      <label class="top">Phone* <input type="tel" name="phone" placeholder="" required></label>
-      <label class="top">Zip code* <input type="text" name="zipcode" placeholder="" required></label>
-      <label class="top">Storm date <input type="date" name="date"></label>
+      <legend>Choose your stay</legend>
 
-      <label class="top">Storm type<input type="text" name="type" list="stormtype"></label>
-      <datalist id="stormtype">
-        <option value="Flash Flood"></option>
-        <option value="Hail"></option>
-        <option value="Hurricane"></option>
-        <option value="Thunderstorm"></option>
-        <option value="Tornado"></option>
-      </datalist>
-
-      <label class="top">Severity <input type="range" id="severity" value="5" min="1" max="10" step="1" list="marks"
-          oninput="severityValue(this.value)" onchange="severityValue(this.value)"></label>
-      <span id="severValue">5</span>
-      <datalist id="marks">
-        <option value="1">
-        <option value="2">
-        <option value="3">
-        <option value="4">
-        <option value="5">
-        <option value="6">
-        <option value="7">
-        <option value="8">
-        <option value="9">
-        <option value="10">
-      </datalist>
-
-      <label class="top" id="region">Storm Region
-        <select name="region">
+      <label class="top" id="location">Temple location*
+        <select name="location" required>
           <option value="" disabled selected>Please Select</option>
-          <option value="preston">Preston</option>
-          <option value="sodasprings">Soda Springs</option>
-          <option value="fishhaven">Fish Haven</option>
+          <option value="curitiba">Curitiba</option>
+          <option value="campinas">Campinas</option>
+          <option value="portoalegre">Porto Alegre</option>
+          <option value="saopaulo">São Paulo</option>
         </select>
       </label>
 
-      <div>Are you in danger?</div>
-      <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
-      <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
-      <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+      <label class="top">Check-in date* <input type="date" name="datein" min="2019-12-18" required></label>
+      <label class="top">Check-out date* <input type="date" name="dateout" min="2019-12-18" required></label>
+      <label class="top">Guests* <input type="number" name="guests" min="1" max="30" required></label>
+      <label class="top">Rooms* <input type="number" name="rooms" min="1" max="10" required></label>
+
+      <div>Type of room</div>
+      <label class="sbs"><input type="radio" name="type" value="single" checked> Single</label>
+      <label class="sbs"><input type="radio" name="type" value="double"> Double</label>
+      <label class="sbs"><input type="radio" name="type" value="triple"> Triple</label>
+
+      <label class="top">Registrant Full Name* <input type="text" name="name" placeholder="Your name" pattern="[A-z\s]{5,}"
+          required></label>
+      <label class="top">Email* <input type="email" name="email" placeholder="name@email.com" required></label>
+      <label class="top">Phone* <input type="tel" name="phone" placeholder="" required></label>
+      <label class="top">Home state or country <input type="text" name="statecountry" placeholder="State or country"></label>
 
       <div id="area">
         <label class="top">Additional comments <textarea name="comments"
-            placeholder="Any additional commentary"></textarea></label>
+            placeholder="Any additional commentary or special needs for your stay."></textarea></label>
       </div>
     </fieldset>
 
-    <input type="submit" value="Send report" class="submitBtn">
+    <input type="submit" value="Request a reservation" class="submitBtn">
   </form>
 
 

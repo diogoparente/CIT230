@@ -104,4 +104,42 @@ iframe {
 
   /* FOOTER ------------------------------------------*/
 
+  /* RESERVATION PAGE --------------------------------*/
+  fieldset {
+    margin: 2em 2em;
+    padding-top: 0;
+  }
+
+  legend {
+    margin: 0 1em;
+  }
+
+  .top,
+  form div {
+    padding-top: 1.3em;
+    font-size: 1em;
+  }
+
+  .top input,
+  .top select {
+    font-size: 0.95em;
+    padding: 0.6em;
+  }
+
+  .sbs {
+    font-size: 0.95em;
+  }
+
+  .submitBtn {
+    padding: .75em 1em;
+    margin: 0 2.2em 1em;
+    width: 96%;
+    max-width: 19.4em;
+    font-size: 0.95em;
+  }
+
+  #area {
+    width: 99%;
+  }
+
 }
