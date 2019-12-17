@@ -59,48 +59,42 @@
   h3 {
     font-size: 1.5em;
   }
-  
+
   .content {
     margin: 0 5% 30px;
   }
-  
+
   .content img {
     min-width: 250px;
   }
-  
+
   .content .text {
     padding: 10px;
     font-size: 0.95em;
   }
 
+  /* CONTACT -----------------------------------------*/
+  .contact {
+    padding: 10px 10px;
+  }
 
+  .contact p {
+    font-size: 0.9em;
+    margin: 3px 0;
+  }
 
+  iframe {
+    height: 200px;
+    width: 300px;
+    border: black solid 1px;
+    margin-right: 10px;
+  }
 
-
-
-
-/* CONTACT -----------------------------------------*/
-.contact {
-  padding: 10px 10px;
-}
-
-.contact p {
-  font-size: 0.9em;
-  margin: 3px 0;
-}
-
-iframe {
-  height: 200px;
-  width: 300px;
-  border: black solid 1px;
-  margin-right: 10px;
-}
-
-.icon {
-  max-width: 35px;
-  max-height: 35px;
-  border: none;
-}
+  .icon {
+    max-width: 35px;
+    max-height: 35px;
+    border: none;
+  }
 
   /* FOOTER ------------------------------------------*/
 
@@ -112,6 +106,7 @@ iframe {
 
   legend {
     margin: 0 1em;
+    font-size: 1.2em;
   }
 
   .top,
@@ -132,9 +127,7 @@ iframe {
 
   .submitBtn {
     padding: .75em 1em;
-    margin: 0 2.2em 1em;
-    width: 96%;
-    max-width: 19.4em;
+    max-width: 21.2em;
     font-size: 0.95em;
   }
 
@@ -142,4 +135,14 @@ iframe {
     width: 99%;
   }
 
+  /* CONTACT PAGE ------------------------------------*/
+  .check {
+    font-size: 1em;
+  }
+
+  .sendBtn {
+    margin: 1.3em 0 0 0;
+    max-width: 20.2em;
+    font-size: 1em;
+  }
 }

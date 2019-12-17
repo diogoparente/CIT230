@@ -42,18 +42,18 @@
   </nav>
 
 <main>
-  <section class="content">
-    <div>
-      <h2>Contact Us</h2>
-      <p>Any question? Complaint? Compliment?<br>Send us a message. We'll answer ASAP.</p>
-      <input class="line-input" type="text" id="name" placeholder="Name">
-      <input class="line-input" type="text" id="email" placeholder="Email address">
-      <input class="line-input" type="text" id="title" placeholder="Title for the message">
-      <form><textarea class="text-input" placeholder="Write your message here"></textarea></form>
-      <button class="button" type="button" onclick="sendEmail()">Send Message</button>
-      <input class="checkbox" type="checkbox">Receive a copy of this message
-    </div>
-  </section>
+  <fieldset>
+    <legend>Contact Us</legend>
+    <label class="top">Name<input type="text" id="name" placeholder="Your name"></label>
+    <label class="top">Email<input type="text" id="email" placeholder="name@email.com"></label>
+    <label class="top">Message title<input type="text" id="title" placeholder="Title for the message"></label>
+      <div id="area">
+        <label class="top">Message <textarea name="comments"
+            placeholder="Write your message here"></textarea></label>
+      </div>
+      <label class="check"><input type="checkbox">Receive a copy of this message</label>
+        <button class="sendBtn" type="button" onclick="sendEmail()">Send Message</button>
+      </fieldset>
 </main>
 
   <footer>
@@ -65,6 +65,11 @@
     <p id="line4"><span id="currentDate"></span></p>
   </footer>
 
+  <script>
+		function sendEmail() {
+			alert("Sorry.\nIt was not possible to send the message.\nTry again later.");
+		}
+  </script>
 </body>
 
 </html>

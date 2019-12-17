@@ -143,6 +143,10 @@
     margin: 1em;
   }
 
+  legend {
+    font-size: 1.1em;
+  }
+
   .top,
   form div {
     padding-top: 1em;
@@ -155,13 +159,21 @@
 
   .submitBtn {
     padding: .75em 1em;
-    margin: 0 1em 1em;
-    width: 96%;
-    max-width: 19.4em;
+    max-width: 19.2em;
     font-size: 0.95em;
   }
 
   #area {
     width: 99%;
+  }
+
+  /* CONTACT PAGE ------------------------------------*/
+  .check {
+    font-size: 0.9em;
+  }
+
+  .sendBtn {
+    max-width: 19.2em;
+    font-size: 0.95em;
   }
 }

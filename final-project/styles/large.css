@@ -200,8 +200,9 @@ fieldset {
 legend {
   color: black;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.3em;
   margin: 0 2em;
+  margin-bottom: -25px;
   padding: 0.5em;
 }
 
@@ -239,9 +240,8 @@ form div {
   color: white;
   border-radius: 0.5em;
   padding: .75em 1em;
-  margin: 0 4.7em 2em;
   width: 96%;
-  max-width: 20em;
+  max-width: 21.5em;
   cursor: pointer;
   font-size: 1.1em;
 }
@@ -291,3 +291,24 @@ form div {
 }
 
 /* CONTACT PAGE ------------------------------------*/
+.check {
+  display: block;
+  font-size: 1.1em;
+}
+
+.check input {
+  margin-right: 5px;
+}
+
+.sendBtn {
+  border: none;
+  background-color: #101aaa;
+  color: white;
+  border-radius: 0.5em;
+  padding: .75em 1em;
+  margin: 1.5em 0 0 0;
+  width: 96%;
+  max-width: 21.6em;
+  cursor: pointer;
+  font-size: 1.1em;
+}
