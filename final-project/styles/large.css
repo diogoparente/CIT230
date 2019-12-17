@@ -280,4 +280,14 @@ form div {
   padding: 5px;
 }
 
+/* CONFIRMATION PAGE -------------------------------*/
+.confirm {
+  text-align: center;
+  margin: 50px;
+}
+
+.confirm h2 {
+  padding: 0 0 10px 0;
+}
+
 /* CONTACT PAGE ------------------------------------*/
