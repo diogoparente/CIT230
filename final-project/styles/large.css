@@ -193,12 +193,13 @@ footer {
 .disposicao {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 3%;
+  padding: 1% 3% 3%;
 }
 
 .templeInfo {
   background: #edffe3;
   width: 97%;
+  margin-top: 3%;
 }
 
 .templeInfo img {
@@ -222,10 +223,18 @@ footer {
   margin-bottom: 1px;
 }
 
-.infoTemple p {
+.infoTemple p, .infoTemple table {
   margin: 0;
   padding-left: 10px;
   font-size: 0.9em;
+}
+
+.period td {
+  min-width: 137px;
+}
+
+.startTime td {
+  min-width: 75px;
 }
 
 .contentTemples {
