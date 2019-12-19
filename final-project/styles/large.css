@@ -194,6 +194,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1% 3% 3%;
+  justify-items: center;
 }
 
 .templeInfo {
@@ -223,29 +224,25 @@ footer {
   margin-bottom: 1px;
 }
 
-.infoTemple p, .infoTemple table {
+.infoTemple p {
   margin: 0;
   padding-left: 10px;
   font-size: 0.9em;
 }
 
-.period td {
+.period p {
+  display: inline-block;
   min-width: 137px;
+  font-size: 0.9em;
+  padding-left: 10px;
 }
 
-.startTime td {
-  min-width: 75px;
+.startTime p {
+  display: inline-block;
+  min-width: 70px;
+  font-size: 0.9em;
+  padding-left: 10px;
 }
-
-.contentTemples {
-  background: #edffe3;
-  margin: 0 10% 30px;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-content: center;
-}
-
 
 /* RESERVATION PAGE --------------------------------*/
 fieldset {

@@ -1,5 +1,4 @@
 @media only screen and (max-width: 35em) {
-
   /* HEADER ------------------------------------------*/
   header h1 {
     font-size: 1.5em;
@@ -84,7 +83,7 @@
   }
 
   h3 {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   .content {
@@ -137,6 +136,40 @@
   #line4 {
     font-size: 0.75em;
   }
+
+/* TEMPLES PAGE ------------------------------------*/
+.disposicao {
+  padding: 0;
+}
+
+.templeInfo a {
+  font-size: 0.85em;
+}
+
+.infoTemple h4 {
+  margin-top: 0.6em;
+  font-size: 0.95em;
+}
+
+.textTemple p {
+  font-size: 0.95em;
+}
+
+.infoTemple p {
+  font-size: 0.85em;
+}
+
+.period p {
+  min-width: 135px;
+  font-size: 0.85em;
+  padding-left: 10px;
+}
+
+.startTime p {
+  min-width: 65px;
+  font-size: 0.85em;
+  padding-left: 10px;
+}
 
   /* RESERVATION PAGE --------------------------------*/
   fieldset {
